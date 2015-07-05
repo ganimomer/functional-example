@@ -1,0 +1,1468 @@
+[
+  {
+    "id": "2934531402",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 530732,
+      "login": "maboiteaspam",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maboiteaspam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/530732?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-30T09:14:51Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2934408828",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 1309053,
+      "login": "kiddkai",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kiddkai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1309053?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1308",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1308/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1308/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1308/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1308",
+        "id": 91694689,
+        "number": 1308,
+        "title": "compose throws error - Cannot read property 'thru' of undefined",
+        "user": {
+          "login": "kiddkai",
+          "id": 1309053,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1309053?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/kiddkai",
+          "html_url": "https://github.com/kiddkai",
+          "followers_url": "https://api.github.com/users/kiddkai/followers",
+          "following_url": "https://api.github.com/users/kiddkai/following{/other_user}",
+          "gists_url": "https://api.github.com/users/kiddkai/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/kiddkai/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/kiddkai/subscriptions",
+          "organizations_url": "https://api.github.com/users/kiddkai/orgs",
+          "repos_url": "https://api.github.com/users/kiddkai/repos",
+          "events_url": "https://api.github.com/users/kiddkai/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/kiddkai/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/bug",
+            "name": "bug",
+            "color": "fc2929"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-06-29T04:45:22Z",
+        "updated_at": "2015-06-30T08:29:00Z",
+        "closed_at": "2015-06-30T04:38:26Z",
+        "body": "When I try to use curried `transform` + `first` + `property`, it will throws error\r\n\r\n```\r\nversion: 3.7.0(my own package) and 3.9.0(in the website)\r\n```\r\n\r\nError:\r\n\r\n```\r\nUncaught TypeError: Cannot read property 'thru' of undefined\r\n    at Function.<anonymous> (https://lodash.com/_js/lodash.js:3325:94)\r\n    at <anonymous>:2:21\r\n    at Object.InjectedScript._evaluateOn (<anonymous>:895:140)\r\n    at Object.InjectedScript._evaluateAndWrap (<anonymous>:828:34)\r\n    at Object.InjectedScript.evaluate (<anonymous>:694:21)\r\n```\r\n\r\nExample Code:\r\n\r\n```js\r\nvar camelize = _.curry(_.transform, 2)(_, function(result, val, key) {\r\n  result[_.camelCase(key)] = val;\r\n});\r\n\r\nvar getFirstRecordAndTransform = _.compose(camelize,  _.first, _.property('rows'));  // in this step will throws error\r\n\r\ngetFirstRecordAndTransform({\r\n  rows: [\r\n    {\r\n       foo_bar: 'baz'\r\n    }\r\n  ]\r\n});\r\n```\r\n\r\nBut it's fine when I try:\r\n\r\n```js\r\nvar getFirstRecordAndTransform = _.compose(_.first, _.property('rows')); \r\n```\r\n"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/117053579",
+        "html_url": "https://github.com/lodash/lodash/issues/1308#issuecomment-117053579",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1308",
+        "id": 117053579,
+        "user": {
+          "login": "kiddkai",
+          "id": 1309053,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1309053?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/kiddkai",
+          "html_url": "https://github.com/kiddkai",
+          "followers_url": "https://api.github.com/users/kiddkai/followers",
+          "following_url": "https://api.github.com/users/kiddkai/following{/other_user}",
+          "gists_url": "https://api.github.com/users/kiddkai/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/kiddkai/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/kiddkai/subscriptions",
+          "organizations_url": "https://api.github.com/users/kiddkai/orgs",
+          "repos_url": "https://api.github.com/users/kiddkai/repos",
+          "events_url": "https://api.github.com/users/kiddkai/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/kiddkai/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-30T08:29:00Z",
+        "updated_at": "2015-06-30T08:29:00Z",
+        "body": "Wow, what a fast response. Thanks @jdalton."
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-30T08:29:00Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2934390135",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 10496356,
+      "login": "Cao-Bin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Cao-Bin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10496356?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "forkee": {
+        "id": 38296881,
+        "name": "lodash",
+        "full_name": "Cao-Bin/lodash",
+        "owner": {
+          "login": "Cao-Bin",
+          "id": 10496356,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10496356?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Cao-Bin",
+          "html_url": "https://github.com/Cao-Bin",
+          "followers_url": "https://api.github.com/users/Cao-Bin/followers",
+          "following_url": "https://api.github.com/users/Cao-Bin/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Cao-Bin/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Cao-Bin/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Cao-Bin/subscriptions",
+          "organizations_url": "https://api.github.com/users/Cao-Bin/orgs",
+          "repos_url": "https://api.github.com/users/Cao-Bin/repos",
+          "events_url": "https://api.github.com/users/Cao-Bin/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Cao-Bin/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "private": false,
+        "html_url": "https://github.com/Cao-Bin/lodash",
+        "description": "A JavaScript utility library delivering consistency, modularity, performance, & extras.",
+        "fork": true,
+        "url": "https://api.github.com/repos/Cao-Bin/lodash",
+        "forks_url": "https://api.github.com/repos/Cao-Bin/lodash/forks",
+        "keys_url": "https://api.github.com/repos/Cao-Bin/lodash/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/Cao-Bin/lodash/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/Cao-Bin/lodash/teams",
+        "hooks_url": "https://api.github.com/repos/Cao-Bin/lodash/hooks",
+        "issue_events_url": "https://api.github.com/repos/Cao-Bin/lodash/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/Cao-Bin/lodash/events",
+        "assignees_url": "https://api.github.com/repos/Cao-Bin/lodash/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/Cao-Bin/lodash/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/Cao-Bin/lodash/tags",
+        "blobs_url": "https://api.github.com/repos/Cao-Bin/lodash/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/Cao-Bin/lodash/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/Cao-Bin/lodash/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/Cao-Bin/lodash/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/Cao-Bin/lodash/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/Cao-Bin/lodash/languages",
+        "stargazers_url": "https://api.github.com/repos/Cao-Bin/lodash/stargazers",
+        "contributors_url": "https://api.github.com/repos/Cao-Bin/lodash/contributors",
+        "subscribers_url": "https://api.github.com/repos/Cao-Bin/lodash/subscribers",
+        "subscription_url": "https://api.github.com/repos/Cao-Bin/lodash/subscription",
+        "commits_url": "https://api.github.com/repos/Cao-Bin/lodash/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/Cao-Bin/lodash/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/Cao-Bin/lodash/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/Cao-Bin/lodash/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/Cao-Bin/lodash/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/Cao-Bin/lodash/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/Cao-Bin/lodash/merges",
+        "archive_url": "https://api.github.com/repos/Cao-Bin/lodash/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/Cao-Bin/lodash/downloads",
+        "issues_url": "https://api.github.com/repos/Cao-Bin/lodash/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/Cao-Bin/lodash/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/Cao-Bin/lodash/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/Cao-Bin/lodash/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/Cao-Bin/lodash/labels{/name}",
+        "releases_url": "https://api.github.com/repos/Cao-Bin/lodash/releases{/id}",
+        "created_at": "2015-06-30T08:21:19Z",
+        "updated_at": "2015-06-30T08:21:15Z",
+        "pushed_at": "2015-06-30T07:08:04Z",
+        "git_url": "git://github.com/Cao-Bin/lodash.git",
+        "ssh_url": "git@github.com:Cao-Bin/lodash.git",
+        "clone_url": "https://github.com/Cao-Bin/lodash.git",
+        "svn_url": "https://github.com/Cao-Bin/lodash",
+        "homepage": "https://lodash.com/",
+        "size": 118385,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "open_issues_count": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-30T08:21:19Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2934389987",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 10496356,
+      "login": "Cao-Bin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Cao-Bin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10496356?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-30T08:21:15Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2934266621",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 5079562,
+      "login": "codeos",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/codeos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5079562?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-30T07:25:32Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2934231382",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "push_id": 710981873,
+      "size": 47,
+      "distinct_size": 47,
+      "ref": "refs/heads/npm-packages",
+      "head": "157a4ba8f5f017c13181e6ebbe13e60fcc7f0272",
+      "before": "5166064453ed6164b76fb20f8dd340d23dd334e5",
+      "commits": [
+        {
+          "sha": "3a443662c83a414f5625bc8508a089aacff12b09",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "John-David Dalton"
+          },
+          "message": "Bump to v3.0.0.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/3a443662c83a414f5625bc8508a089aacff12b09"
+        },
+        {
+          "sha": "9a15fd52be75f84c8d616ba202dd2907ca64279e",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.0.1.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/9a15fd52be75f84c8d616ba202dd2907ca64279e"
+        },
+        {
+          "sha": "6bf0b48d72fbef449770f3c9ae843df02c3f15a8",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.0.2.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/6bf0b48d72fbef449770f3c9ae843df02c3f15a8"
+        },
+        {
+          "sha": "df3b77eafaace36d22b03ca8cf24b1898c9d19db",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.0.3.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/df3b77eafaace36d22b03ca8cf24b1898c9d19db"
+        },
+        {
+          "sha": "761a77e3fc7631b87cff453e31d22df961f99571",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.0.4.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/761a77e3fc7631b87cff453e31d22df961f99571"
+        },
+        {
+          "sha": "421e98c74301d0543ab474ef984fcf8b30ef4b8f",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.0.5.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/421e98c74301d0543ab474ef984fcf8b30ef4b8f"
+        },
+        {
+          "sha": "d0e6ee2701222c0b98ad549d162f559a384291a2",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.0.6.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/d0e6ee2701222c0b98ad549d162f559a384291a2"
+        },
+        {
+          "sha": "f98ec82622f928dfbd032bc07f2bbd80d86e1cde",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.0.7.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/f98ec82622f928dfbd032bc07f2bbd80d86e1cde"
+        },
+        {
+          "sha": "ff7529be08f22be701bd3736bdfa65ea78625390",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.0.8.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/ff7529be08f22be701bd3736bdfa65ea78625390"
+        },
+        {
+          "sha": "dc710bcea4ab10710e687028cf3b7ecbe4106f7d",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.0.9.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/dc710bcea4ab10710e687028cf3b7ecbe4106f7d"
+        },
+        {
+          "sha": "14ee0d207ffc1e0db7f8119a0d51603ee886192c",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.1.0.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/14ee0d207ffc1e0db7f8119a0d51603ee886192c"
+        },
+        {
+          "sha": "fd553c211b588933ee99d1b0ecd10b01d584cc5f",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.1.1.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/fd553c211b588933ee99d1b0ecd10b01d584cc5f"
+        },
+        {
+          "sha": "a7477d91625dc49d11e2283946a769887fbcc4fd",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.1.2.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/a7477d91625dc49d11e2283946a769887fbcc4fd"
+        },
+        {
+          "sha": "a0e9cef2ce0259bd5507db70bcf58531ca77ec53",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.1.3.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/a0e9cef2ce0259bd5507db70bcf58531ca77ec53"
+        },
+        {
+          "sha": "d6598a4d62a7517549826a18d574c4beccd9a08d",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.1.4.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/d6598a4d62a7517549826a18d574c4beccd9a08d"
+        },
+        {
+          "sha": "0be791f87da72fc2550d01cddfc6f79549986d75",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.1.5.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/0be791f87da72fc2550d01cddfc6f79549986d75"
+        },
+        {
+          "sha": "658d39809d5417fd7b672043a98c87c4fd3630e8",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.2.0.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/658d39809d5417fd7b672043a98c87c4fd3630e8"
+        },
+        {
+          "sha": "ff2007d70d33b3b5bee786da5098057feaf597f0",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.2.1.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/ff2007d70d33b3b5bee786da5098057feaf597f0"
+        },
+        {
+          "sha": "64c8534edacb3186fa6f33c425fa5e590373b9fd",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.2.2.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/64c8534edacb3186fa6f33c425fa5e590373b9fd"
+        },
+        {
+          "sha": "a4f424ed4a1e66c362d313af2d1c25aa5c616490",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.2.3.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/a4f424ed4a1e66c362d313af2d1c25aa5c616490"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-30T07:08:05Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2934228840",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "push_id": 710980899,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/npm",
+      "head": "b97a9a3da01077337540a377bf87860c4d00db2c",
+      "before": "adea9e7c1f58a3be8173a4b33edbf0f382e593e2",
+      "commits": [
+        {
+          "sha": "b97a9a3da01077337540a377bf87860c4d00db2c",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.10.0.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/b97a9a3da01077337540a377bf87860c4d00db2c"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-30T07:06:42Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2934228680",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "push_id": 710980838,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/amd",
+      "head": "a35d515323d4ce4e4944da32dc9a6e14d6f3172e",
+      "before": "86e97bc6e056cc06f09c085713c2c72782bc058b",
+      "commits": [
+        {
+          "sha": "a35d515323d4ce4e4944da32dc9a6e14d6f3172e",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.10.0.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/a35d515323d4ce4e4944da32dc9a6e14d6f3172e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-30T07:06:37Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2934228517",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "push_id": 710980781,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/es",
+      "head": "4bd2890bbd134c8ff8f343633ca937edb6fbfd96",
+      "before": "cd429acd645aa02898b7010c6531a7349d0725f4",
+      "commits": [
+        {
+          "sha": "4bd2890bbd134c8ff8f343633ca937edb6fbfd96",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.10.0.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/4bd2890bbd134c8ff8f343633ca937edb6fbfd96"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-30T07:06:32Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2934143545",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "push_id": 710948056,
+      "size": 4,
+      "distinct_size": 4,
+      "ref": "refs/heads/master",
+      "head": "b8aa58158e18e5fa864c63b8c493977728e97515",
+      "before": "84ae4e349df12c872063c05c443518a4b13933b4",
+      "commits": [
+        {
+          "sha": "8ba161463bfabd9b8bf0f00f268b7adc63fec01e",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Clarify implicit chaining in the `lodash` docs. [ci skip]",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/8ba161463bfabd9b8bf0f00f268b7adc63fec01e"
+        },
+        {
+          "sha": "e620d194221186188b5168a8171cc329f3646a17",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Disable JIT for ringo runs in travis.yml.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/e620d194221186188b5168a8171cc329f3646a17"
+        },
+        {
+          "sha": "7351c0b0b941e7faa450a7f53713659b3ebe76dc",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Rebuild lodash and docs.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/7351c0b0b941e7faa450a7f53713659b3ebe76dc"
+        },
+        {
+          "sha": "b8aa58158e18e5fa864c63b8c493977728e97515",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.10.0.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/b8aa58158e18e5fa864c63b8c493977728e97515"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-30T06:17:55Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2934133801",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 1257821,
+      "login": "pgdaniel",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pgdaniel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1257821?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-30T06:11:43Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2934004850",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "push_id": 710896821,
+      "size": 4,
+      "distinct_size": 4,
+      "ref": "refs/heads/master",
+      "head": "84ae4e349df12c872063c05c443518a4b13933b4",
+      "before": "08d2144b77a034bf588e58eda6b0c434d72b9196",
+      "commits": [
+        {
+          "sha": "29ceed91f069077a998451efbea9209acd1b37a6",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Add more shortcut fusion tests for `_.flow` and `_.flowRight`.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/29ceed91f069077a998451efbea9209acd1b37a6"
+        },
+        {
+          "sha": "d93aa183f3fdbefe73c8b06ae3ecc6bae6416c56",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Ensure `_.flow` and `_.flowRight` works with `_.first`. [closes #1308]",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/d93aa183f3fdbefe73c8b06ae3ecc6bae6416c56"
+        },
+        {
+          "sha": "344e91abe19e4b527f347a79a9242efc35230f28",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Rebuild lodash and docs.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/344e91abe19e4b527f347a79a9242efc35230f28"
+        },
+        {
+          "sha": "84ae4e349df12c872063c05c443518a4b13933b4",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.10.0.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/84ae4e349df12c872063c05c443518a4b13933b4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-30T04:38:27Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2934004849",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1308",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1308/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1308/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1308/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1308",
+        "id": 91694689,
+        "number": 1308,
+        "title": "compose throws error - Cannot read property 'thru' of undefined",
+        "user": {
+          "login": "kiddkai",
+          "id": 1309053,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1309053?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/kiddkai",
+          "html_url": "https://github.com/kiddkai",
+          "followers_url": "https://api.github.com/users/kiddkai/followers",
+          "following_url": "https://api.github.com/users/kiddkai/following{/other_user}",
+          "gists_url": "https://api.github.com/users/kiddkai/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/kiddkai/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/kiddkai/subscriptions",
+          "organizations_url": "https://api.github.com/users/kiddkai/orgs",
+          "repos_url": "https://api.github.com/users/kiddkai/repos",
+          "events_url": "https://api.github.com/users/kiddkai/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/kiddkai/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/bug",
+            "name": "bug",
+            "color": "fc2929"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-29T04:45:22Z",
+        "updated_at": "2015-06-30T04:38:26Z",
+        "closed_at": "2015-06-30T04:38:26Z",
+        "body": "When I try to use curried `transform` + `first` + `property`, it will throws error\r\n\r\n```\r\nversion: 3.7.0(my own package) and 3.9.0(in the website)\r\n```\r\n\r\nError:\r\n\r\n```\r\nUncaught TypeError: Cannot read property 'thru' of undefined\r\n    at Function.<anonymous> (https://lodash.com/_js/lodash.js:3325:94)\r\n    at <anonymous>:2:21\r\n    at Object.InjectedScript._evaluateOn (<anonymous>:895:140)\r\n    at Object.InjectedScript._evaluateAndWrap (<anonymous>:828:34)\r\n    at Object.InjectedScript.evaluate (<anonymous>:694:21)\r\n```\r\n\r\nExample Code:\r\n\r\n```js\r\nvar camelize = _.curry(_.transform, 2)(_, function(result, val, key) {\r\n  result[_.camelCase(key)] = val;\r\n});\r\n\r\nvar getFirstRecordAndTransform = _.compose(camelize,  _.first, _.property('rows'));  // in this step will throws error\r\n\r\ngetFirstRecordAndTransform({\r\n  rows: [\r\n    {\r\n       foo_bar: 'baz'\r\n    }\r\n  ]\r\n});\r\n```\r\n\r\nBut it's fine when I try:\r\n\r\n```js\r\nvar getFirstRecordAndTransform = _.compose(_.first, _.property('rows')); \r\n```\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-30T04:38:27Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2933846512",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 1155186,
+      "login": "jacobchen",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jacobchen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1155186?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-30T02:44:04Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2933748322",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 11541898,
+      "login": "Neophy7e",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Neophy7e",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11541898?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-30T01:43:58Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2933587969",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 1583001,
+      "login": "maximeCony",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maximeCony",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1583001?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-30T00:15:06Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2933112039",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 1184789,
+      "login": "mattraby",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mattraby",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1184789?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-29T21:08:14Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2933050741",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 4865237,
+      "login": "lewisje",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lewisje",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4865237?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-29T20:49:30Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2932586478",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 13024515,
+      "login": "dreadbeard",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dreadbeard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13024515?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-29T18:23:46Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2932416279",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 6556191,
+      "login": "deenoize",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deenoize",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6556191?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-29T17:30:40Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2932092137",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 969868,
+      "login": "zeckalpha",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zeckalpha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/969868?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-29T15:51:50Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2931756277",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1308",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1308/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1308/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1308/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1308",
+        "id": 91694689,
+        "number": 1308,
+        "title": "compose throws error - Cannot read property 'thru' of undefined",
+        "user": {
+          "login": "kiddkai",
+          "id": 1309053,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1309053?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/kiddkai",
+          "html_url": "https://github.com/kiddkai",
+          "followers_url": "https://api.github.com/users/kiddkai/followers",
+          "following_url": "https://api.github.com/users/kiddkai/following{/other_user}",
+          "gists_url": "https://api.github.com/users/kiddkai/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/kiddkai/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/kiddkai/subscriptions",
+          "organizations_url": "https://api.github.com/users/kiddkai/orgs",
+          "repos_url": "https://api.github.com/users/kiddkai/repos",
+          "events_url": "https://api.github.com/users/kiddkai/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/kiddkai/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-29T04:45:22Z",
+        "updated_at": "2015-06-29T14:18:09Z",
+        "closed_at": null,
+        "body": "When I try to use curried `transform` + `first` + `property`, it will throws error\r\n\r\n```\r\nversion: 3.7.0(my own package) and 3.9.0(in the website)\r\n```\r\n\r\nError:\r\n\r\n```\r\nUncaught TypeError: Cannot read property 'thru' of undefined\r\n    at Function.<anonymous> (https://lodash.com/_js/lodash.js:3325:94)\r\n    at <anonymous>:2:21\r\n    at Object.InjectedScript._evaluateOn (<anonymous>:895:140)\r\n    at Object.InjectedScript._evaluateAndWrap (<anonymous>:828:34)\r\n    at Object.InjectedScript.evaluate (<anonymous>:694:21)\r\n```\r\n\r\nExample Code:\r\n\r\n```js\r\nvar camelize = _.curry(_.transform, 2)(_, function(result, val, key) {\r\n  result[_.camelCase(key)] = val;\r\n});\r\n\r\nvar getFirstRecordAndTransform = _.compose(camelize,  _.first, _.property('rows'));  // in this step will throws error\r\n\r\ngetFirstRecordAndTransform({\r\n  rows: [\r\n    {\r\n       foo_bar: 'baz'\r\n    }\r\n  ]\r\n});\r\n```\r\n\r\nBut it's fine when I try:\r\n\r\n```js\r\nvar getFirstRecordAndTransform = _.compose(_.first, _.property('rows')); \r\n```\r\n"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/116693023",
+        "html_url": "https://github.com/lodash/lodash/issues/1308#issuecomment-116693023",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1308",
+        "id": 116693023,
+        "user": {
+          "login": "jdalton",
+          "id": 4303,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4303?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jdalton",
+          "html_url": "https://github.com/jdalton",
+          "followers_url": "https://api.github.com/users/jdalton/followers",
+          "following_url": "https://api.github.com/users/jdalton/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jdalton/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jdalton/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jdalton/subscriptions",
+          "organizations_url": "https://api.github.com/users/jdalton/orgs",
+          "repos_url": "https://api.github.com/users/jdalton/repos",
+          "events_url": "https://api.github.com/users/jdalton/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jdalton/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-29T14:18:09Z",
+        "updated_at": "2015-06-29T14:18:09Z",
+        "body": "Thanks @kiddkai! You found a bug in our chaining API. I'll patch it in a few."
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-29T14:18:09Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2931705436",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 1153187,
+      "login": "davidesantangelo",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/davidesantangelo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1153187?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-29T14:02:59Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2931597836",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 2954966,
+      "login": "Jantjeschnitzel",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Jantjeschnitzel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2954966?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-29T13:29:46Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2931129585",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 8696694,
+      "login": "belgac",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/belgac",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8696694?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-29T10:17:02Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2930978016",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 641987,
+      "login": "thesquib",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thesquib",
+      "avatar_url": "https://avatars.githubusercontent.com/u/641987?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-29T09:19:47Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2930941565",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 6690086,
+      "login": "choudalex",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/choudalex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6690086?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-29T09:05:10Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2930849229",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 3139113,
+      "login": "gera2ld",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gera2ld",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3139113?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-29T08:27:02Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2930768021",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 380420,
+      "login": "yeoupooh",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yeoupooh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/380420?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-29T07:50:10Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2930767192",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 5192219,
+      "login": "filipemgs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/filipemgs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5192219?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-29T07:49:46Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  }
+]
