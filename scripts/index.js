@@ -4,19 +4,30 @@ function getData() {
   function json(res) {
     return res.json();
   }
+
   function toDataLocation(n) {
     return dataLocation + n + '.json';
   }
+
+  function fetchJson(url) {
+    return fetch(url).then(json);
+  }
+
+  function toTypesAndValues(eventTypeCount) {
+    return {types: _.keys(eventTypeCount), values: _.values(eventTypeCount)}
+  }
+
   'use strict';
-  var promises = _.range(1, 11)
+  return _(_.range(1, 11))
     .map(toDataLocation)
-    .map(function(url) {
-      return fetch(url).then(json);
-    });
-  return Promise.all(promises)
+    .map(fetchJson)
+    .thru(Promise.all, Promise)
+    .value()
     .then(function (pages) {
-      var events = _.flatten(pages);
-      var eventTypeCount = _.countBy(events, 'type');
-      return {types: _.keys(eventTypeCount), values: _.values(eventTypeCount)}
+      return _(pages).
+        flatten()
+        .countBy('type')
+        .thru(toTypesAndValues)
+        .value();
     });
 }
