@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lodash Github events by Type</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+    <script src="scripts/toBarChart.js"></script>
+    <script src="data/data.js"></script>
+    <script src="scripts/index.js"></script>
+</head>
+<body>
+<div id="wrapper"></div>
+<script>
+    var processed = getData();
+    toBarChart(processed);
+</script>
+</body>
+</html>

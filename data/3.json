@@ -1,0 +1,2019 @@
+[
+  {
+    "id": "2929245962",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 605615,
+      "login": "dlandis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlandis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/605615?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "forkee": {
+        "id": 38181575,
+        "name": "lodash",
+        "full_name": "dlandis/lodash",
+        "owner": {
+          "login": "dlandis",
+          "id": 605615,
+          "avatar_url": "https://avatars.githubusercontent.com/u/605615?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dlandis",
+          "html_url": "https://github.com/dlandis",
+          "followers_url": "https://api.github.com/users/dlandis/followers",
+          "following_url": "https://api.github.com/users/dlandis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dlandis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dlandis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dlandis/subscriptions",
+          "organizations_url": "https://api.github.com/users/dlandis/orgs",
+          "repos_url": "https://api.github.com/users/dlandis/repos",
+          "events_url": "https://api.github.com/users/dlandis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dlandis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "private": false,
+        "html_url": "https://github.com/dlandis/lodash",
+        "description": "A JavaScript utility library delivering consistency, modularity, performance, & extras.",
+        "fork": true,
+        "url": "https://api.github.com/repos/dlandis/lodash",
+        "forks_url": "https://api.github.com/repos/dlandis/lodash/forks",
+        "keys_url": "https://api.github.com/repos/dlandis/lodash/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/dlandis/lodash/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/dlandis/lodash/teams",
+        "hooks_url": "https://api.github.com/repos/dlandis/lodash/hooks",
+        "issue_events_url": "https://api.github.com/repos/dlandis/lodash/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/dlandis/lodash/events",
+        "assignees_url": "https://api.github.com/repos/dlandis/lodash/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/dlandis/lodash/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/dlandis/lodash/tags",
+        "blobs_url": "https://api.github.com/repos/dlandis/lodash/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/dlandis/lodash/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/dlandis/lodash/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/dlandis/lodash/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/dlandis/lodash/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/dlandis/lodash/languages",
+        "stargazers_url": "https://api.github.com/repos/dlandis/lodash/stargazers",
+        "contributors_url": "https://api.github.com/repos/dlandis/lodash/contributors",
+        "subscribers_url": "https://api.github.com/repos/dlandis/lodash/subscribers",
+        "subscription_url": "https://api.github.com/repos/dlandis/lodash/subscription",
+        "commits_url": "https://api.github.com/repos/dlandis/lodash/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/dlandis/lodash/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/dlandis/lodash/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/dlandis/lodash/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/dlandis/lodash/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/dlandis/lodash/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/dlandis/lodash/merges",
+        "archive_url": "https://api.github.com/repos/dlandis/lodash/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/dlandis/lodash/downloads",
+        "issues_url": "https://api.github.com/repos/dlandis/lodash/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/dlandis/lodash/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/dlandis/lodash/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/dlandis/lodash/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/dlandis/lodash/labels{/name}",
+        "releases_url": "https://api.github.com/repos/dlandis/lodash/releases{/id}",
+        "created_at": "2015-06-28T01:11:16Z",
+        "updated_at": "2015-06-27T23:25:34Z",
+        "pushed_at": "2015-06-26T15:26:55Z",
+        "git_url": "git://github.com/dlandis/lodash.git",
+        "ssh_url": "git@github.com:dlandis/lodash.git",
+        "clone_url": "https://github.com/dlandis/lodash.git",
+        "svn_url": "https://github.com/dlandis/lodash",
+        "homepage": "https://lodash.com/",
+        "size": 118321,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "open_issues_count": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-28T01:11:16Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2929182378",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 889040,
+      "login": "ice6",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ice6",
+      "avatar_url": "https://avatars.githubusercontent.com/u/889040?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-27T23:25:34Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2929123756",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 6727837,
+      "login": "wataori",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wataori",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6727837?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-27T22:04:59Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2929079388",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 2787299,
+      "login": "pmckenna",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pmckenna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2787299?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-27T21:05:36Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2928939434",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 11281575,
+      "login": "RailsOnLisp",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RailsOnLisp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11281575?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "forkee": {
+        "id": 38170108,
+        "name": "lodash",
+        "full_name": "RailsOnLisp/lodash",
+        "owner": {
+          "login": "RailsOnLisp",
+          "id": 11281575,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11281575?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/RailsOnLisp",
+          "html_url": "https://github.com/RailsOnLisp",
+          "followers_url": "https://api.github.com/users/RailsOnLisp/followers",
+          "following_url": "https://api.github.com/users/RailsOnLisp/following{/other_user}",
+          "gists_url": "https://api.github.com/users/RailsOnLisp/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/RailsOnLisp/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/RailsOnLisp/subscriptions",
+          "organizations_url": "https://api.github.com/users/RailsOnLisp/orgs",
+          "repos_url": "https://api.github.com/users/RailsOnLisp/repos",
+          "events_url": "https://api.github.com/users/RailsOnLisp/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/RailsOnLisp/received_events",
+          "type": "Organization",
+          "site_admin": false
+        },
+        "private": false,
+        "html_url": "https://github.com/RailsOnLisp/lodash",
+        "description": "A JavaScript utility library delivering consistency, modularity, performance, & extras.",
+        "fork": true,
+        "url": "https://api.github.com/repos/RailsOnLisp/lodash",
+        "forks_url": "https://api.github.com/repos/RailsOnLisp/lodash/forks",
+        "keys_url": "https://api.github.com/repos/RailsOnLisp/lodash/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/RailsOnLisp/lodash/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/RailsOnLisp/lodash/teams",
+        "hooks_url": "https://api.github.com/repos/RailsOnLisp/lodash/hooks",
+        "issue_events_url": "https://api.github.com/repos/RailsOnLisp/lodash/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/RailsOnLisp/lodash/events",
+        "assignees_url": "https://api.github.com/repos/RailsOnLisp/lodash/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/RailsOnLisp/lodash/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/RailsOnLisp/lodash/tags",
+        "blobs_url": "https://api.github.com/repos/RailsOnLisp/lodash/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/RailsOnLisp/lodash/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/RailsOnLisp/lodash/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/RailsOnLisp/lodash/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/RailsOnLisp/lodash/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/RailsOnLisp/lodash/languages",
+        "stargazers_url": "https://api.github.com/repos/RailsOnLisp/lodash/stargazers",
+        "contributors_url": "https://api.github.com/repos/RailsOnLisp/lodash/contributors",
+        "subscribers_url": "https://api.github.com/repos/RailsOnLisp/lodash/subscribers",
+        "subscription_url": "https://api.github.com/repos/RailsOnLisp/lodash/subscription",
+        "commits_url": "https://api.github.com/repos/RailsOnLisp/lodash/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/RailsOnLisp/lodash/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/RailsOnLisp/lodash/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/RailsOnLisp/lodash/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/RailsOnLisp/lodash/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/RailsOnLisp/lodash/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/RailsOnLisp/lodash/merges",
+        "archive_url": "https://api.github.com/repos/RailsOnLisp/lodash/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/RailsOnLisp/lodash/downloads",
+        "issues_url": "https://api.github.com/repos/RailsOnLisp/lodash/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/RailsOnLisp/lodash/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/RailsOnLisp/lodash/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/RailsOnLisp/lodash/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/RailsOnLisp/lodash/labels{/name}",
+        "releases_url": "https://api.github.com/repos/RailsOnLisp/lodash/releases{/id}",
+        "created_at": "2015-06-27T18:09:14Z",
+        "updated_at": "2015-06-27T18:01:56Z",
+        "pushed_at": "2015-06-26T15:26:55Z",
+        "git_url": "git://github.com/RailsOnLisp/lodash.git",
+        "ssh_url": "git@github.com:RailsOnLisp/lodash.git",
+        "clone_url": "https://github.com/RailsOnLisp/lodash.git",
+        "svn_url": "https://github.com/RailsOnLisp/lodash",
+        "homepage": "https://lodash.com/",
+        "size": 118321,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "open_issues_count": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-27T18:09:16Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2928933881",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 144149,
+      "login": "anunez",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anunez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/144149?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-27T18:01:58Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2928928397",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 1110910,
+      "login": "mfdj",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mfdj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1110910?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-27T17:54:45Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2928880016",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 490873,
+      "login": "MaxFaiko",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaxFaiko",
+      "avatar_url": "https://avatars.githubusercontent.com/u/490873?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-27T16:53:23Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2928804127",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 1643479,
+      "login": "puneethrai",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/puneethrai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1643479?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "forkee": {
+        "id": 38164567,
+        "name": "lodash",
+        "full_name": "puneethrai/lodash",
+        "owner": {
+          "login": "puneethrai",
+          "id": 1643479,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1643479?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/puneethrai",
+          "html_url": "https://github.com/puneethrai",
+          "followers_url": "https://api.github.com/users/puneethrai/followers",
+          "following_url": "https://api.github.com/users/puneethrai/following{/other_user}",
+          "gists_url": "https://api.github.com/users/puneethrai/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/puneethrai/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/puneethrai/subscriptions",
+          "organizations_url": "https://api.github.com/users/puneethrai/orgs",
+          "repos_url": "https://api.github.com/users/puneethrai/repos",
+          "events_url": "https://api.github.com/users/puneethrai/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/puneethrai/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "private": false,
+        "html_url": "https://github.com/puneethrai/lodash",
+        "description": "A JavaScript utility library delivering consistency, modularity, performance, & extras.",
+        "fork": true,
+        "url": "https://api.github.com/repos/puneethrai/lodash",
+        "forks_url": "https://api.github.com/repos/puneethrai/lodash/forks",
+        "keys_url": "https://api.github.com/repos/puneethrai/lodash/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/puneethrai/lodash/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/puneethrai/lodash/teams",
+        "hooks_url": "https://api.github.com/repos/puneethrai/lodash/hooks",
+        "issue_events_url": "https://api.github.com/repos/puneethrai/lodash/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/puneethrai/lodash/events",
+        "assignees_url": "https://api.github.com/repos/puneethrai/lodash/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/puneethrai/lodash/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/puneethrai/lodash/tags",
+        "blobs_url": "https://api.github.com/repos/puneethrai/lodash/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/puneethrai/lodash/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/puneethrai/lodash/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/puneethrai/lodash/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/puneethrai/lodash/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/puneethrai/lodash/languages",
+        "stargazers_url": "https://api.github.com/repos/puneethrai/lodash/stargazers",
+        "contributors_url": "https://api.github.com/repos/puneethrai/lodash/contributors",
+        "subscribers_url": "https://api.github.com/repos/puneethrai/lodash/subscribers",
+        "subscription_url": "https://api.github.com/repos/puneethrai/lodash/subscription",
+        "commits_url": "https://api.github.com/repos/puneethrai/lodash/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/puneethrai/lodash/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/puneethrai/lodash/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/puneethrai/lodash/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/puneethrai/lodash/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/puneethrai/lodash/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/puneethrai/lodash/merges",
+        "archive_url": "https://api.github.com/repos/puneethrai/lodash/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/puneethrai/lodash/downloads",
+        "issues_url": "https://api.github.com/repos/puneethrai/lodash/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/puneethrai/lodash/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/puneethrai/lodash/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/puneethrai/lodash/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/puneethrai/lodash/labels{/name}",
+        "releases_url": "https://api.github.com/repos/puneethrai/lodash/releases{/id}",
+        "created_at": "2015-06-27T15:17:08Z",
+        "updated_at": "2015-06-27T14:02:11Z",
+        "pushed_at": "2015-06-26T15:26:55Z",
+        "git_url": "git://github.com/puneethrai/lodash.git",
+        "ssh_url": "git@github.com:puneethrai/lodash.git",
+        "clone_url": "https://github.com/puneethrai/lodash.git",
+        "svn_url": "https://github.com/puneethrai/lodash",
+        "homepage": "https://lodash.com/",
+        "size": 118321,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "open_issues_count": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-27T15:17:10Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2928747579",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 1536740,
+      "login": "navarroaxel",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/navarroaxel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1536740?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-27T14:02:12Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2928708482",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 2681631,
+      "login": "t686",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/t686",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2681631?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-27T13:08:35Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2928670908",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 2124761,
+      "login": "StreetStrider",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/StreetStrider",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2124761?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1302",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1302/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1302/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1302/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1302",
+        "id": 91075309,
+        "number": 1302,
+        "title": "Feature request: AtLeast, AtMost",
+        "user": {
+          "login": "falafflepotatoe",
+          "id": 10060419,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10060419?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/falafflepotatoe",
+          "html_url": "https://github.com/falafflepotatoe",
+          "followers_url": "https://api.github.com/users/falafflepotatoe/followers",
+          "following_url": "https://api.github.com/users/falafflepotatoe/following{/other_user}",
+          "gists_url": "https://api.github.com/users/falafflepotatoe/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/falafflepotatoe/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/falafflepotatoe/subscriptions",
+          "organizations_url": "https://api.github.com/users/falafflepotatoe/orgs",
+          "repos_url": "https://api.github.com/users/falafflepotatoe/repos",
+          "events_url": "https://api.github.com/users/falafflepotatoe/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/falafflepotatoe/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb"
+          },
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/wontfix",
+            "name": "wontfix",
+            "color": "ffffff"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-06-25T21:02:43Z",
+        "updated_at": "2015-06-27T12:10:40Z",
+        "closed_at": "2015-06-25T21:08:02Z",
+        "body": "heres an easy one, i always hate typing this one out:\r\n\r\n - atLeast (cnt, value, array) returns bool\r\n - atMost (cnt, value, array)  returns bool\r\n\r\nexample:\r\n\r\n    animals = [ 'cat','dog','bear','cat' ]\r\n    if (_atLeast(2, 'cat', animals))\r\n      feedcats()\r\n\r\n\r\nreplaces\r\n\r\n    animals = ['cat','dog','bear','cat']\r\n    cnt = 0;\r\n    for (animal of animals){\r\n      if (animal == 'cat'){\r\n        cnt += 1\r\n      }\r\n    }\r\n    if (cnt > 2){\r\n         feedcats()\r\n    }\r\n"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/116026599",
+        "html_url": "https://github.com/lodash/lodash/issues/1302#issuecomment-116026599",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1302",
+        "id": 116026599,
+        "user": {
+          "login": "StreetStrider",
+          "id": 2124761,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2124761?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/StreetStrider",
+          "html_url": "https://github.com/StreetStrider",
+          "followers_url": "https://api.github.com/users/StreetStrider/followers",
+          "following_url": "https://api.github.com/users/StreetStrider/following{/other_user}",
+          "gists_url": "https://api.github.com/users/StreetStrider/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/StreetStrider/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/StreetStrider/subscriptions",
+          "organizations_url": "https://api.github.com/users/StreetStrider/orgs",
+          "repos_url": "https://api.github.com/users/StreetStrider/repos",
+          "events_url": "https://api.github.com/users/StreetStrider/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/StreetStrider/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-27T12:10:40Z",
+        "updated_at": "2015-06-27T12:10:40Z",
+        "body": "I think implementing a `count` is a good basis for this mixins. #702 "
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-27T12:10:41Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2928657869",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 5195423,
+      "login": "klaatus",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/klaatus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5195423?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-27T11:50:42Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2928180764",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 143744,
+      "login": "milesj",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/milesj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/143744?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1307",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1307/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1307/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1307/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1307",
+        "id": 91387136,
+        "number": 1307,
+        "title": "Legal/licensing requirements for bundling",
+        "user": {
+          "login": "milesj",
+          "id": 143744,
+          "avatar_url": "https://avatars.githubusercontent.com/u/143744?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/milesj",
+          "html_url": "https://github.com/milesj",
+          "followers_url": "https://api.github.com/users/milesj/followers",
+          "following_url": "https://api.github.com/users/milesj/following{/other_user}",
+          "gists_url": "https://api.github.com/users/milesj/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/milesj/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/milesj/subscriptions",
+          "organizations_url": "https://api.github.com/users/milesj/orgs",
+          "repos_url": "https://api.github.com/users/milesj/repos",
+          "events_url": "https://api.github.com/users/milesj/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/milesj/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/question",
+            "name": "question",
+            "color": "d4c5f9"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-06-26T23:43:13Z",
+        "updated_at": "2015-06-27T00:10:44Z",
+        "closed_at": "2015-06-27T00:08:08Z",
+        "body": "I'm currently in the process of rewriting my Toolkit project to version 3.0. This version will be dropping jQuery and will be entirely written in ES6. I'm at a crossroad where a good portion of functionality can be solved by lodash, and was wondering what legal/licensing requirements there are if I bundle parts of lodash in the \"production\" ready Toolkit code, found here: https://github.com/titon/toolkit/tree/3.0/dist\r\n\r\nI'm assuming that I would simply have to place the license in the file. If there's anything else let me know. Or if you guys are against this approach as well. Full credit will be given throughout. "
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/115923067",
+        "html_url": "https://github.com/lodash/lodash/issues/1307#issuecomment-115923067",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1307",
+        "id": 115923067,
+        "user": {
+          "login": "milesj",
+          "id": 143744,
+          "avatar_url": "https://avatars.githubusercontent.com/u/143744?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/milesj",
+          "html_url": "https://github.com/milesj",
+          "followers_url": "https://api.github.com/users/milesj/followers",
+          "following_url": "https://api.github.com/users/milesj/following{/other_user}",
+          "gists_url": "https://api.github.com/users/milesj/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/milesj/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/milesj/subscriptions",
+          "organizations_url": "https://api.github.com/users/milesj/orgs",
+          "repos_url": "https://api.github.com/users/milesj/repos",
+          "events_url": "https://api.github.com/users/milesj/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/milesj/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-27T00:10:43Z",
+        "updated_at": "2015-06-27T00:10:43Z",
+        "body": "Sounds great, thanks for the quick reply!"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-27T00:10:44Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2928177370",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1307",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1307/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1307/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1307/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1307",
+        "id": 91387136,
+        "number": 1307,
+        "title": "Legal/licensing requirements for bundling",
+        "user": {
+          "login": "milesj",
+          "id": 143744,
+          "avatar_url": "https://avatars.githubusercontent.com/u/143744?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/milesj",
+          "html_url": "https://github.com/milesj",
+          "followers_url": "https://api.github.com/users/milesj/followers",
+          "following_url": "https://api.github.com/users/milesj/following{/other_user}",
+          "gists_url": "https://api.github.com/users/milesj/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/milesj/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/milesj/subscriptions",
+          "organizations_url": "https://api.github.com/users/milesj/orgs",
+          "repos_url": "https://api.github.com/users/milesj/repos",
+          "events_url": "https://api.github.com/users/milesj/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/milesj/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/question",
+            "name": "question",
+            "color": "d4c5f9"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-26T23:43:13Z",
+        "updated_at": "2015-06-27T00:08:08Z",
+        "closed_at": "2015-06-27T00:08:08Z",
+        "body": "I'm currently in the process of rewriting my Toolkit project to version 3.0. This version will be dropping jQuery and will be entirely written in ES6. I'm at a crossroad where a good portion of functionality can be solved by lodash, and was wondering what legal/licensing requirements there are if I bundle parts of lodash in the \"production\" ready Toolkit code, found here: https://github.com/titon/toolkit/tree/3.0/dist\r\n\r\nI'm assuming that I would simply have to place the license in the file. If there's anything else let me know. Or if you guys are against this approach as well. Full credit will be given throughout. "
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-27T00:08:08Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2928177368",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1307",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1307/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1307/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1307/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1307",
+        "id": 91387136,
+        "number": 1307,
+        "title": "Legal/licensing requirements for bundling",
+        "user": {
+          "login": "milesj",
+          "id": 143744,
+          "avatar_url": "https://avatars.githubusercontent.com/u/143744?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/milesj",
+          "html_url": "https://github.com/milesj",
+          "followers_url": "https://api.github.com/users/milesj/followers",
+          "following_url": "https://api.github.com/users/milesj/following{/other_user}",
+          "gists_url": "https://api.github.com/users/milesj/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/milesj/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/milesj/subscriptions",
+          "organizations_url": "https://api.github.com/users/milesj/orgs",
+          "repos_url": "https://api.github.com/users/milesj/repos",
+          "events_url": "https://api.github.com/users/milesj/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/milesj/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/question",
+            "name": "question",
+            "color": "d4c5f9"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-26T23:43:13Z",
+        "updated_at": "2015-06-27T00:08:08Z",
+        "closed_at": "2015-06-27T00:08:08Z",
+        "body": "I'm currently in the process of rewriting my Toolkit project to version 3.0. This version will be dropping jQuery and will be entirely written in ES6. I'm at a crossroad where a good portion of functionality can be solved by lodash, and was wondering what legal/licensing requirements there are if I bundle parts of lodash in the \"production\" ready Toolkit code, found here: https://github.com/titon/toolkit/tree/3.0/dist\r\n\r\nI'm assuming that I would simply have to place the license in the file. If there's anything else let me know. Or if you guys are against this approach as well. Full credit will be given throughout. "
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/115922871",
+        "html_url": "https://github.com/lodash/lodash/issues/1307#issuecomment-115922871",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1307",
+        "id": 115922871,
+        "user": {
+          "login": "jdalton",
+          "id": 4303,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4303?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jdalton",
+          "html_url": "https://github.com/jdalton",
+          "followers_url": "https://api.github.com/users/jdalton/followers",
+          "following_url": "https://api.github.com/users/jdalton/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jdalton/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jdalton/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jdalton/subscriptions",
+          "organizations_url": "https://api.github.com/users/jdalton/orgs",
+          "repos_url": "https://api.github.com/users/jdalton/repos",
+          "events_url": "https://api.github.com/users/jdalton/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jdalton/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-27T00:08:08Z",
+        "updated_at": "2015-06-27T00:08:08Z",
+        "body": "Awesome@milesj!\r\n\r\nLodash is available under [an MIT license](https://github.com/lodash/lodash/blob/master/LICENSE). It looks like you're MIT too so I can see just adding a mention to the copyright headers there (similar to how we've added Underscore to ours). If you want you can always run it by when you're done and I can give feedback.\r\n\r\n\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-27T00:08:08Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2928170981",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 984955,
+      "login": "jacksondc",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jacksondc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/984955?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-27T00:03:13Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2928142909",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 143744,
+      "login": "milesj",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/milesj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/143744?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1307",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1307/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1307/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1307/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1307",
+        "id": 91387136,
+        "number": 1307,
+        "title": "Legal/licensing requirements for bundling",
+        "user": {
+          "login": "milesj",
+          "id": 143744,
+          "avatar_url": "https://avatars.githubusercontent.com/u/143744?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/milesj",
+          "html_url": "https://github.com/milesj",
+          "followers_url": "https://api.github.com/users/milesj/followers",
+          "following_url": "https://api.github.com/users/milesj/following{/other_user}",
+          "gists_url": "https://api.github.com/users/milesj/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/milesj/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/milesj/subscriptions",
+          "organizations_url": "https://api.github.com/users/milesj/orgs",
+          "repos_url": "https://api.github.com/users/milesj/repos",
+          "events_url": "https://api.github.com/users/milesj/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/milesj/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-06-26T23:43:13Z",
+        "updated_at": "2015-06-26T23:43:13Z",
+        "closed_at": null,
+        "body": "I'm currently in the process of rewriting my Toolkit project to version 3.0. This version will be dropping jQuery and be entirely written in ES6. I'm at a crossroad where a good portion of functionality can be solved by lodash, and was wondering what legal/licensing requirements there are if I bundle parts of lodash in the \"production\" ready Toolkit code, found here: https://github.com/titon/toolkit/tree/3.0/dist\r\n\r\nI'm assuming that I would simply have to place the license in the file. If there's anything else let me know. Or if you guys are against this approach as well. Full credit will be given throughout. "
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-26T23:43:13Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2927917215",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1252",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1252/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1252/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1252/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1252",
+        "id": 83111733,
+        "number": 1252,
+        "title": "_.delete/_.remove for objects using a path.",
+        "user": {
+          "login": "andrewhathaway",
+          "id": 1188830,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1188830?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/andrewhathaway",
+          "html_url": "https://github.com/andrewhathaway",
+          "followers_url": "https://api.github.com/users/andrewhathaway/followers",
+          "following_url": "https://api.github.com/users/andrewhathaway/following{/other_user}",
+          "gists_url": "https://api.github.com/users/andrewhathaway/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/andrewhathaway/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/andrewhathaway/subscriptions",
+          "organizations_url": "https://api.github.com/users/andrewhathaway/orgs",
+          "repos_url": "https://api.github.com/users/andrewhathaway/repos",
+          "events_url": "https://api.github.com/users/andrewhathaway/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/andrewhathaway/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb"
+          },
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/wontfix",
+            "name": "wontfix",
+            "color": "ffffff"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 11,
+        "created_at": "2015-05-31T15:23:30Z",
+        "updated_at": "2015-06-26T21:45:16Z",
+        "closed_at": "2015-05-31T17:06:58Z",
+        "body": "It would be great to be able to remove a value from an object, including it's key using a path just like `_.get` and `_.set`.\r\n\r\n```javascript\r\n_.remove(object, 'a[0].b.c');\r\n```"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/115898801",
+        "html_url": "https://github.com/lodash/lodash/issues/1252#issuecomment-115898801",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1252",
+        "id": 115898801,
+        "user": {
+          "login": "jdalton",
+          "id": 4303,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4303?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jdalton",
+          "html_url": "https://github.com/jdalton",
+          "followers_url": "https://api.github.com/users/jdalton/followers",
+          "following_url": "https://api.github.com/users/jdalton/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jdalton/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jdalton/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jdalton/subscriptions",
+          "organizations_url": "https://api.github.com/users/jdalton/orgs",
+          "repos_url": "https://api.github.com/users/jdalton/repos",
+          "events_url": "https://api.github.com/users/jdalton/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jdalton/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-26T21:45:16Z",
+        "updated_at": "2015-06-26T21:45:16Z",
+        "body": "The next step is for someone to create a PR for `_.unset`."
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-26T21:45:17Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2927889439",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 379314,
+      "login": "travisdahl",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/travisdahl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/379314?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1252",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1252/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1252/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1252/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1252",
+        "id": 83111733,
+        "number": 1252,
+        "title": "_.delete/_.remove for objects using a path.",
+        "user": {
+          "login": "andrewhathaway",
+          "id": 1188830,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1188830?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/andrewhathaway",
+          "html_url": "https://github.com/andrewhathaway",
+          "followers_url": "https://api.github.com/users/andrewhathaway/followers",
+          "following_url": "https://api.github.com/users/andrewhathaway/following{/other_user}",
+          "gists_url": "https://api.github.com/users/andrewhathaway/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/andrewhathaway/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/andrewhathaway/subscriptions",
+          "organizations_url": "https://api.github.com/users/andrewhathaway/orgs",
+          "repos_url": "https://api.github.com/users/andrewhathaway/repos",
+          "events_url": "https://api.github.com/users/andrewhathaway/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/andrewhathaway/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb"
+          },
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/wontfix",
+            "name": "wontfix",
+            "color": "ffffff"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 10,
+        "created_at": "2015-05-31T15:23:30Z",
+        "updated_at": "2015-06-26T21:34:00Z",
+        "closed_at": "2015-05-31T17:06:58Z",
+        "body": "It would be great to be able to remove a value from an object, including it's key using a path just like `_.get` and `_.set`.\r\n\r\n```javascript\r\n_.remove(object, 'a[0].b.c');\r\n```"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/115893554",
+        "html_url": "https://github.com/lodash/lodash/issues/1252#issuecomment-115893554",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1252",
+        "id": 115893554,
+        "user": {
+          "login": "travisdahl",
+          "id": 379314,
+          "avatar_url": "https://avatars.githubusercontent.com/u/379314?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/travisdahl",
+          "html_url": "https://github.com/travisdahl",
+          "followers_url": "https://api.github.com/users/travisdahl/followers",
+          "following_url": "https://api.github.com/users/travisdahl/following{/other_user}",
+          "gists_url": "https://api.github.com/users/travisdahl/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/travisdahl/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/travisdahl/subscriptions",
+          "organizations_url": "https://api.github.com/users/travisdahl/orgs",
+          "repos_url": "https://api.github.com/users/travisdahl/repos",
+          "events_url": "https://api.github.com/users/travisdahl/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/travisdahl/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-26T21:34:00Z",
+        "updated_at": "2015-06-26T21:34:00Z",
+        "body": "I love it when I go searching for something and people are currently talking about it. You guys are awesome.\r\n\r\n+1"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-26T21:34:00Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2927242361",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 7549986,
+      "login": "andrevvalle",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/andrevvalle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7549986?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T17:43:51Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2927089000",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 716168,
+      "login": "lifeinchords",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lifeinchords",
+      "avatar_url": "https://avatars.githubusercontent.com/u/716168?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "forkee": {
+        "id": 38122482,
+        "name": "lodash",
+        "full_name": "lifeinchords/lodash",
+        "owner": {
+          "login": "lifeinchords",
+          "id": 716168,
+          "avatar_url": "https://avatars.githubusercontent.com/u/716168?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lifeinchords",
+          "html_url": "https://github.com/lifeinchords",
+          "followers_url": "https://api.github.com/users/lifeinchords/followers",
+          "following_url": "https://api.github.com/users/lifeinchords/following{/other_user}",
+          "gists_url": "https://api.github.com/users/lifeinchords/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lifeinchords/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/lifeinchords/subscriptions",
+          "organizations_url": "https://api.github.com/users/lifeinchords/orgs",
+          "repos_url": "https://api.github.com/users/lifeinchords/repos",
+          "events_url": "https://api.github.com/users/lifeinchords/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lifeinchords/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "private": false,
+        "html_url": "https://github.com/lifeinchords/lodash",
+        "description": "A JavaScript utility library delivering consistency, modularity, performance, & extras.",
+        "fork": true,
+        "url": "https://api.github.com/repos/lifeinchords/lodash",
+        "forks_url": "https://api.github.com/repos/lifeinchords/lodash/forks",
+        "keys_url": "https://api.github.com/repos/lifeinchords/lodash/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/lifeinchords/lodash/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/lifeinchords/lodash/teams",
+        "hooks_url": "https://api.github.com/repos/lifeinchords/lodash/hooks",
+        "issue_events_url": "https://api.github.com/repos/lifeinchords/lodash/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/lifeinchords/lodash/events",
+        "assignees_url": "https://api.github.com/repos/lifeinchords/lodash/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/lifeinchords/lodash/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/lifeinchords/lodash/tags",
+        "blobs_url": "https://api.github.com/repos/lifeinchords/lodash/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/lifeinchords/lodash/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/lifeinchords/lodash/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/lifeinchords/lodash/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/lifeinchords/lodash/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/lifeinchords/lodash/languages",
+        "stargazers_url": "https://api.github.com/repos/lifeinchords/lodash/stargazers",
+        "contributors_url": "https://api.github.com/repos/lifeinchords/lodash/contributors",
+        "subscribers_url": "https://api.github.com/repos/lifeinchords/lodash/subscribers",
+        "subscription_url": "https://api.github.com/repos/lifeinchords/lodash/subscription",
+        "commits_url": "https://api.github.com/repos/lifeinchords/lodash/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/lifeinchords/lodash/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/lifeinchords/lodash/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/lifeinchords/lodash/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/lifeinchords/lodash/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/lifeinchords/lodash/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/lifeinchords/lodash/merges",
+        "archive_url": "https://api.github.com/repos/lifeinchords/lodash/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/lifeinchords/lodash/downloads",
+        "issues_url": "https://api.github.com/repos/lifeinchords/lodash/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/lifeinchords/lodash/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/lifeinchords/lodash/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/lifeinchords/lodash/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/lifeinchords/lodash/labels{/name}",
+        "releases_url": "https://api.github.com/repos/lifeinchords/lodash/releases{/id}",
+        "created_at": "2015-06-26T16:49:01Z",
+        "updated_at": "2015-06-26T14:24:44Z",
+        "pushed_at": "2015-06-26T15:26:55Z",
+        "git_url": "git://github.com/lifeinchords/lodash.git",
+        "ssh_url": "git@github.com:lifeinchords/lodash.git",
+        "clone_url": "https://github.com/lifeinchords/lodash.git",
+        "svn_url": "https://github.com/lifeinchords/lodash",
+        "homepage": "https://lodash.com/",
+        "size": 118321,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "open_issues_count": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-26T16:49:01Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2926840846",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "push_id": 708160217,
+      "size": 4,
+      "distinct_size": 4,
+      "ref": "refs/heads/master",
+      "head": "47589e72bf34867cc87e1fd518faa12628272b03",
+      "before": "71fb702c1d31a0bd582ef3885039c7dd25eb3b66",
+      "commits": [
+        {
+          "sha": "ec7dce7d5bb9ed0a100d85096ee1f67fa5dcf4a1",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Rename `_.debounce` helper `executeBoundFunction` to `complete`.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/ec7dce7d5bb9ed0a100d85096ee1f67fa5dcf4a1"
+        },
+        {
+          "sha": "116dbfd123fad5b489adc1cdb2ec1fb402ddd7eb",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Remove unneeded `maxWait` guard from `maxDelayed`.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/116dbfd123fad5b489adc1cdb2ec1fb402ddd7eb"
+        },
+        {
+          "sha": "b44d633244a441e9208b363bd0912b0772bf77de",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Rebuild lodash and docs.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/b44d633244a441e9208b363bd0912b0772bf77de"
+        },
+        {
+          "sha": "47589e72bf34867cc87e1fd518faa12628272b03",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.10.0.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/47589e72bf34867cc87e1fd518faa12628272b03"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-26T15:26:56Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2926749003",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 1765130,
+      "login": "dbkaplun",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dbkaplun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1765130?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1306",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1306/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1306/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1306/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1306",
+        "id": 91264945,
+        "number": 1306,
+        "title": "Support hint param for sortedIndex",
+        "user": {
+          "login": "dbkaplun",
+          "id": 1765130,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1765130?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dbkaplun",
+          "html_url": "https://github.com/dbkaplun",
+          "followers_url": "https://api.github.com/users/dbkaplun/followers",
+          "following_url": "https://api.github.com/users/dbkaplun/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dbkaplun/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dbkaplun/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dbkaplun/subscriptions",
+          "organizations_url": "https://api.github.com/users/dbkaplun/orgs",
+          "repos_url": "https://api.github.com/users/dbkaplun/repos",
+          "events_url": "https://api.github.com/users/dbkaplun/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dbkaplun/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb"
+          },
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/wontfix",
+            "name": "wontfix",
+            "color": "ffffff"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-06-26T14:26:15Z",
+        "updated_at": "2015-06-26T14:59:17Z",
+        "closed_at": "2015-06-26T14:46:39Z",
+        "body": "[As it is now](https://github.com/lodash/lodash/blob/master/lodash.js#L2767), the first index checked is naturally the midpoint of the array. This is a good default but sometimes the programmer knows some information about a likely insertion position for the value. Would be great if lodash supported an additional `hint` param!"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/115718537",
+        "html_url": "https://github.com/lodash/lodash/issues/1306#issuecomment-115718537",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1306",
+        "id": 115718537,
+        "user": {
+          "login": "dbkaplun",
+          "id": 1765130,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1765130?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dbkaplun",
+          "html_url": "https://github.com/dbkaplun",
+          "followers_url": "https://api.github.com/users/dbkaplun/followers",
+          "following_url": "https://api.github.com/users/dbkaplun/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dbkaplun/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dbkaplun/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dbkaplun/subscriptions",
+          "organizations_url": "https://api.github.com/users/dbkaplun/orgs",
+          "repos_url": "https://api.github.com/users/dbkaplun/repos",
+          "events_url": "https://api.github.com/users/dbkaplun/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dbkaplun/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-26T14:59:17Z",
+        "updated_at": "2015-06-26T14:59:17Z",
+        "body": "Absolutely, it's fine the way it is! Sorry if it sounded like I was complaining. I just think it could be improved. My particular use case is inserting many values that are close together. According to my benchmarks, using `sortedIndex` is slower than `push`ing then `sort`ing. If I could use the previous index as an initial parameter, it would make things much faster!"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-26T14:59:17Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2926706893",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1306",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1306/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1306/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1306/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1306",
+        "id": 91264945,
+        "number": 1306,
+        "title": "Support hint param for sortedIndex",
+        "user": {
+          "login": "dbkaplun",
+          "id": 1765130,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1765130?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dbkaplun",
+          "html_url": "https://github.com/dbkaplun",
+          "followers_url": "https://api.github.com/users/dbkaplun/followers",
+          "following_url": "https://api.github.com/users/dbkaplun/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dbkaplun/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dbkaplun/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dbkaplun/subscriptions",
+          "organizations_url": "https://api.github.com/users/dbkaplun/orgs",
+          "repos_url": "https://api.github.com/users/dbkaplun/repos",
+          "events_url": "https://api.github.com/users/dbkaplun/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dbkaplun/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-26T14:26:15Z",
+        "updated_at": "2015-06-26T14:46:39Z",
+        "closed_at": "2015-06-26T14:46:39Z",
+        "body": "[As it is now](https://github.com/lodash/lodash/blob/master/lodash.js#L2767), the first index checked is naturally the midpoint of the array. This is a good default but sometimes the programmer knows some information about a likely insertion position for the value. Would be great if lodash supported an additional `hint` param!"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-26T14:46:39Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2926706889",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1306",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1306/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1306/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1306/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1306",
+        "id": 91264945,
+        "number": 1306,
+        "title": "Support hint param for sortedIndex",
+        "user": {
+          "login": "dbkaplun",
+          "id": 1765130,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1765130?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dbkaplun",
+          "html_url": "https://github.com/dbkaplun",
+          "followers_url": "https://api.github.com/users/dbkaplun/followers",
+          "following_url": "https://api.github.com/users/dbkaplun/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dbkaplun/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dbkaplun/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dbkaplun/subscriptions",
+          "organizations_url": "https://api.github.com/users/dbkaplun/orgs",
+          "repos_url": "https://api.github.com/users/dbkaplun/repos",
+          "events_url": "https://api.github.com/users/dbkaplun/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dbkaplun/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-26T14:26:15Z",
+        "updated_at": "2015-06-26T14:46:39Z",
+        "closed_at": "2015-06-26T14:46:39Z",
+        "body": "[As it is now](https://github.com/lodash/lodash/blob/master/lodash.js#L2767), the first index checked is naturally the midpoint of the array. This is a good default but sometimes the programmer knows some information about a likely insertion position for the value. Would be great if lodash supported an additional `hint` param!"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/115712630",
+        "html_url": "https://github.com/lodash/lodash/issues/1306#issuecomment-115712630",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1306",
+        "id": 115712630,
+        "user": {
+          "login": "jdalton",
+          "id": 4303,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4303?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jdalton",
+          "html_url": "https://github.com/jdalton",
+          "followers_url": "https://api.github.com/users/jdalton/followers",
+          "following_url": "https://api.github.com/users/jdalton/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jdalton/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jdalton/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jdalton/subscriptions",
+          "organizations_url": "https://api.github.com/users/jdalton/orgs",
+          "repos_url": "https://api.github.com/users/jdalton/repos",
+          "events_url": "https://api.github.com/users/jdalton/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jdalton/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-26T14:46:39Z",
+        "updated_at": "2015-06-26T14:46:39Z",
+        "body": "Hi @dbkaplun! Ya it could be tweaked but I think it's fine the way it is. Binary search is already pretty fast I don't see the benefit it tweaking it further."
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-26T14:46:39Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2926672605",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 6447177,
+      "login": "moqyuan",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/moqyuan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6447177?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "forkee": {
+        "id": 38115932,
+        "name": "lodash",
+        "full_name": "moqyuan/lodash",
+        "owner": {
+          "login": "moqyuan",
+          "id": 6447177,
+          "avatar_url": "https://avatars.githubusercontent.com/u/6447177?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/moqyuan",
+          "html_url": "https://github.com/moqyuan",
+          "followers_url": "https://api.github.com/users/moqyuan/followers",
+          "following_url": "https://api.github.com/users/moqyuan/following{/other_user}",
+          "gists_url": "https://api.github.com/users/moqyuan/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/moqyuan/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/moqyuan/subscriptions",
+          "organizations_url": "https://api.github.com/users/moqyuan/orgs",
+          "repos_url": "https://api.github.com/users/moqyuan/repos",
+          "events_url": "https://api.github.com/users/moqyuan/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/moqyuan/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "private": false,
+        "html_url": "https://github.com/moqyuan/lodash",
+        "description": "A JavaScript utility library delivering consistency, modularity, performance, & extras.",
+        "fork": true,
+        "url": "https://api.github.com/repos/moqyuan/lodash",
+        "forks_url": "https://api.github.com/repos/moqyuan/lodash/forks",
+        "keys_url": "https://api.github.com/repos/moqyuan/lodash/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/moqyuan/lodash/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/moqyuan/lodash/teams",
+        "hooks_url": "https://api.github.com/repos/moqyuan/lodash/hooks",
+        "issue_events_url": "https://api.github.com/repos/moqyuan/lodash/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/moqyuan/lodash/events",
+        "assignees_url": "https://api.github.com/repos/moqyuan/lodash/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/moqyuan/lodash/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/moqyuan/lodash/tags",
+        "blobs_url": "https://api.github.com/repos/moqyuan/lodash/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/moqyuan/lodash/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/moqyuan/lodash/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/moqyuan/lodash/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/moqyuan/lodash/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/moqyuan/lodash/languages",
+        "stargazers_url": "https://api.github.com/repos/moqyuan/lodash/stargazers",
+        "contributors_url": "https://api.github.com/repos/moqyuan/lodash/contributors",
+        "subscribers_url": "https://api.github.com/repos/moqyuan/lodash/subscribers",
+        "subscription_url": "https://api.github.com/repos/moqyuan/lodash/subscription",
+        "commits_url": "https://api.github.com/repos/moqyuan/lodash/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/moqyuan/lodash/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/moqyuan/lodash/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/moqyuan/lodash/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/moqyuan/lodash/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/moqyuan/lodash/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/moqyuan/lodash/merges",
+        "archive_url": "https://api.github.com/repos/moqyuan/lodash/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/moqyuan/lodash/downloads",
+        "issues_url": "https://api.github.com/repos/moqyuan/lodash/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/moqyuan/lodash/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/moqyuan/lodash/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/moqyuan/lodash/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/moqyuan/lodash/labels{/name}",
+        "releases_url": "https://api.github.com/repos/moqyuan/lodash/releases{/id}",
+        "created_at": "2015-06-26T14:36:10Z",
+        "updated_at": "2015-06-26T14:24:44Z",
+        "pushed_at": "2015-06-26T13:58:45Z",
+        "git_url": "git://github.com/moqyuan/lodash.git",
+        "ssh_url": "git@github.com:moqyuan/lodash.git",
+        "clone_url": "https://github.com/moqyuan/lodash.git",
+        "svn_url": "https://github.com/moqyuan/lodash",
+        "homepage": "https://lodash.com/",
+        "size": 118321,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "open_issues_count": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-26T14:36:10Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2926641027",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 1765130,
+      "login": "dbkaplun",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dbkaplun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1765130?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1306",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1306/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1306/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1306/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1306",
+        "id": 91264945,
+        "number": 1306,
+        "title": "Support hint param for sortedIndex",
+        "user": {
+          "login": "dbkaplun",
+          "id": 1765130,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1765130?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dbkaplun",
+          "html_url": "https://github.com/dbkaplun",
+          "followers_url": "https://api.github.com/users/dbkaplun/followers",
+          "following_url": "https://api.github.com/users/dbkaplun/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dbkaplun/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dbkaplun/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dbkaplun/subscriptions",
+          "organizations_url": "https://api.github.com/users/dbkaplun/orgs",
+          "repos_url": "https://api.github.com/users/dbkaplun/repos",
+          "events_url": "https://api.github.com/users/dbkaplun/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dbkaplun/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-06-26T14:26:15Z",
+        "updated_at": "2015-06-26T14:26:15Z",
+        "closed_at": null,
+        "body": "[As it is now](https://github.com/lodash/lodash/blob/master/lodash.js#L2767), the first index checked is naturally the midpoint of the array. This is a good default but sometimes the programmer knows some information about a likely insertion position for the value. Would be great if lodash supported an additional `hint` param!"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-26T14:26:15Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2926636242",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 1765130,
+      "login": "dbkaplun",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dbkaplun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1765130?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T14:24:45Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2926564395",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 7335012,
+      "login": "EricNJU",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricNJU",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7335012?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T14:02:06Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  }
+]

@@ -1,0 +1,1792 @@
+[
+  {
+    "id": "2926553758",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "push_id": 708052407,
+      "size": 4,
+      "distinct_size": 4,
+      "ref": "refs/heads/master",
+      "head": "71fb702c1d31a0bd582ef3885039c7dd25eb3b66",
+      "before": "4ae7fc82d8b87e9b62267773cea9630ccb8eb69b",
+      "commits": [
+        {
+          "sha": "f57dadc3629a3319250a3589dd0bfb35794439c7",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Adjust recursive test for older VMs.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/f57dadc3629a3319250a3589dd0bfb35794439c7"
+        },
+        {
+          "sha": "a8c8bd811340337bcf9bc9e787adde4d1fa08ce5",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Adjust timeouts on async tests.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/a8c8bd811340337bcf9bc9e787adde4d1fa08ce5"
+        },
+        {
+          "sha": "a677f84d38a0d195c74f6867e31ca6c19213c39d",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Rebuild lodash and docs.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/a677f84d38a0d195c74f6867e31ca6c19213c39d"
+        },
+        {
+          "sha": "71fb702c1d31a0bd582ef3885039c7dd25eb3b66",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.10.0.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/71fb702c1d31a0bd582ef3885039c7dd25eb3b66"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-26T13:58:47Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2926491669",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 1520926,
+      "login": "Stratus3D",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Stratus3D",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1520926?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T13:38:40Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2926330177",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 4448053,
+      "login": "tkambler",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tkambler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4448053?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T12:38:49Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2926325410",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 906242,
+      "login": "carlorizzante",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carlorizzante",
+      "avatar_url": "https://avatars.githubusercontent.com/u/906242?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T12:36:49Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2926150687",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 11044218,
+      "login": "patrick-frontend",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/patrick-frontend",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11044218?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T11:20:01Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2925850940",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 7803205,
+      "login": "baiyunyuyou",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/baiyunyuyou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7803205?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T09:16:46Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2925795503",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 3317635,
+      "login": "bocharsky-bw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bocharsky-bw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3317635?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T08:55:03Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2925784529",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 8205415,
+      "login": "ZhengGuang",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ZhengGuang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8205415?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T08:50:36Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2925705368",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 4189157,
+      "login": "thomas-tosoni",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thomas-tosoni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4189157?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T08:16:31Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2925662820",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "push_id": 707706157,
+      "size": 3,
+      "distinct_size": 3,
+      "ref": "refs/heads/master",
+      "head": "4ae7fc82d8b87e9b62267773cea9630ccb8eb69b",
+      "before": "60cba5166489b7798b88918cb7fd2db2201223ff",
+      "commits": [
+        {
+          "sha": "0212f36e7c075b121032ea133fa62ddeb0ddb631",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Adjust recursive test for older VMs.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/0212f36e7c075b121032ea133fa62ddeb0ddb631"
+        },
+        {
+          "sha": "90cbbe06be27b6e44d5dfb1581fceeae81f5db4d",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Rebuild lodash and docs.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/90cbbe06be27b6e44d5dfb1581fceeae81f5db4d"
+        },
+        {
+          "sha": "4ae7fc82d8b87e9b62267773cea9630ccb8eb69b",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.10.0.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/4ae7fc82d8b87e9b62267773cea9630ccb8eb69b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-26T07:56:37Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2925624139",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 4032934,
+      "login": "syuji-higa",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/syuji-higa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4032934?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T07:37:36Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2925610932",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 10445139,
+      "login": "evan2x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/evan2x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10445139?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "forkee": {
+        "id": 38097352,
+        "name": "lodash",
+        "full_name": "evan2x/lodash",
+        "owner": {
+          "login": "evan2x",
+          "id": 10445139,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10445139?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/evan2x",
+          "html_url": "https://github.com/evan2x",
+          "followers_url": "https://api.github.com/users/evan2x/followers",
+          "following_url": "https://api.github.com/users/evan2x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/evan2x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/evan2x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/evan2x/subscriptions",
+          "organizations_url": "https://api.github.com/users/evan2x/orgs",
+          "repos_url": "https://api.github.com/users/evan2x/repos",
+          "events_url": "https://api.github.com/users/evan2x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/evan2x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "private": false,
+        "html_url": "https://github.com/evan2x/lodash",
+        "description": "A JavaScript utility library delivering consistency, modularity, performance, & extras.",
+        "fork": true,
+        "url": "https://api.github.com/repos/evan2x/lodash",
+        "forks_url": "https://api.github.com/repos/evan2x/lodash/forks",
+        "keys_url": "https://api.github.com/repos/evan2x/lodash/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/evan2x/lodash/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/evan2x/lodash/teams",
+        "hooks_url": "https://api.github.com/repos/evan2x/lodash/hooks",
+        "issue_events_url": "https://api.github.com/repos/evan2x/lodash/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/evan2x/lodash/events",
+        "assignees_url": "https://api.github.com/repos/evan2x/lodash/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/evan2x/lodash/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/evan2x/lodash/tags",
+        "blobs_url": "https://api.github.com/repos/evan2x/lodash/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/evan2x/lodash/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/evan2x/lodash/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/evan2x/lodash/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/evan2x/lodash/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/evan2x/lodash/languages",
+        "stargazers_url": "https://api.github.com/repos/evan2x/lodash/stargazers",
+        "contributors_url": "https://api.github.com/repos/evan2x/lodash/contributors",
+        "subscribers_url": "https://api.github.com/repos/evan2x/lodash/subscribers",
+        "subscription_url": "https://api.github.com/repos/evan2x/lodash/subscription",
+        "commits_url": "https://api.github.com/repos/evan2x/lodash/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/evan2x/lodash/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/evan2x/lodash/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/evan2x/lodash/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/evan2x/lodash/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/evan2x/lodash/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/evan2x/lodash/merges",
+        "archive_url": "https://api.github.com/repos/evan2x/lodash/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/evan2x/lodash/downloads",
+        "issues_url": "https://api.github.com/repos/evan2x/lodash/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/evan2x/lodash/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/evan2x/lodash/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/evan2x/lodash/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/evan2x/lodash/labels{/name}",
+        "releases_url": "https://api.github.com/repos/evan2x/lodash/releases{/id}",
+        "created_at": "2015-06-26T07:30:57Z",
+        "updated_at": "2015-06-26T06:17:50Z",
+        "pushed_at": "2015-06-25T21:35:25Z",
+        "git_url": "git://github.com/evan2x/lodash.git",
+        "ssh_url": "git@github.com:evan2x/lodash.git",
+        "clone_url": "https://github.com/evan2x/lodash.git",
+        "svn_url": "https://github.com/evan2x/lodash",
+        "homepage": "https://lodash.com/",
+        "size": 118321,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "open_issues_count": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-26T07:30:57Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2925485447",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 2296036,
+      "login": "flynngao",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/flynngao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2296036?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T06:17:50Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2925259033",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 6791916,
+      "login": "l3ve",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/l3ve",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6791916?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T03:24:09Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2925175651",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 3753428,
+      "login": "linxixuan",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/linxixuan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3753428?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T02:23:52Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2925170503",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 1092840,
+      "login": "nathansmyth",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nathansmyth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1092840?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T02:20:20Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2925113573",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 690856,
+      "login": "thewazir",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thewazir",
+      "avatar_url": "https://avatars.githubusercontent.com/u/690856?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2015-06-26T01:42:02Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2924882012",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 373603,
+      "login": "jberube",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jberube",
+      "avatar_url": "https://avatars.githubusercontent.com/u/373603?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1305",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1305/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1305/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1305/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1305",
+        "id": 91099509,
+        "number": 1305,
+        "title": "_.isEqual customizer callback is invoked without the third argument \"key\"",
+        "user": {
+          "login": "jberube",
+          "id": 373603,
+          "avatar_url": "https://avatars.githubusercontent.com/u/373603?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jberube",
+          "html_url": "https://github.com/jberube",
+          "followers_url": "https://api.github.com/users/jberube/followers",
+          "following_url": "https://api.github.com/users/jberube/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jberube/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jberube/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jberube/subscriptions",
+          "organizations_url": "https://api.github.com/users/jberube/orgs",
+          "repos_url": "https://api.github.com/users/jberube/repos",
+          "events_url": "https://api.github.com/users/jberube/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jberube/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-25T23:07:59Z",
+        "updated_at": "2015-06-25T23:29:11Z",
+        "closed_at": "2015-06-25T23:27:53Z",
+        "body": "I'm comparing two objects using this code, to ignore properties starting with $:\r\n\r\n```\r\nfunction areElementEquals (leftElement, rightElement) {\r\n\tfunction customComparer (left, right, key) {\r\n\t\tif (_(key).startsWith('$'))\r\n\t\t\treturn true;\r\n\r\n\t\tif (_.isObject(left))\r\n\t\t\treturn _.isEqual(left, right, customComparer);\r\n\r\n\t\treturn left === right;\r\n\t}\r\n\r\n\treturn _.isEqual(leftElement, rightElement, customComparer);\r\n}\r\n```\r\n\r\nThe customComparer never receive the third argument (key) as the documentation says it should: https://lodash.com/docs#isEqual"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/115429622",
+        "html_url": "https://github.com/lodash/lodash/issues/1305#issuecomment-115429622",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1305",
+        "id": 115429622,
+        "user": {
+          "login": "jberube",
+          "id": 373603,
+          "avatar_url": "https://avatars.githubusercontent.com/u/373603?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jberube",
+          "html_url": "https://github.com/jberube",
+          "followers_url": "https://api.github.com/users/jberube/followers",
+          "following_url": "https://api.github.com/users/jberube/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jberube/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jberube/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jberube/subscriptions",
+          "organizations_url": "https://api.github.com/users/jberube/orgs",
+          "repos_url": "https://api.github.com/users/jberube/repos",
+          "events_url": "https://api.github.com/users/jberube/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jberube/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-25T23:29:11Z",
+        "updated_at": "2015-06-25T23:29:11Z",
+        "body": "My bad.\r\n\r\nCalling _.isEqual recursively was the cause of the `key` not being provided, since its not provided for the root object.\r\n\r\nClosing."
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-25T23:29:11Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2924879317",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 373603,
+      "login": "jberube",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jberube",
+      "avatar_url": "https://avatars.githubusercontent.com/u/373603?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1305",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1305/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1305/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1305/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1305",
+        "id": 91099509,
+        "number": 1305,
+        "title": "_.isEqual customizer callback is invoked without the third argument \"key\"",
+        "user": {
+          "login": "jberube",
+          "id": 373603,
+          "avatar_url": "https://avatars.githubusercontent.com/u/373603?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jberube",
+          "html_url": "https://github.com/jberube",
+          "followers_url": "https://api.github.com/users/jberube/followers",
+          "following_url": "https://api.github.com/users/jberube/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jberube/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jberube/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jberube/subscriptions",
+          "organizations_url": "https://api.github.com/users/jberube/orgs",
+          "repos_url": "https://api.github.com/users/jberube/repos",
+          "events_url": "https://api.github.com/users/jberube/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jberube/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-06-25T23:07:59Z",
+        "updated_at": "2015-06-25T23:27:53Z",
+        "closed_at": "2015-06-25T23:27:53Z",
+        "body": "I'm comparing two objects using this code, to ignore properties starting with $:\r\n\r\n```\r\nfunction areElementEquals (leftElement, rightElement) {\r\n\tfunction customComparer (left, right, key) {\r\n\t\tif (_(key).startsWith('$'))\r\n\t\t\treturn true;\r\n\r\n\t\tif (_.isObject(left))\r\n\t\t\treturn _.isEqual(left, right, customComparer);\r\n\r\n\t\treturn left === right;\r\n\t}\r\n\r\n\treturn _.isEqual(leftElement, rightElement, customComparer);\r\n}\r\n```\r\n\r\nThe customComparer never receive the third argument (key) as the documentation says it should: https://lodash.com/docs#isEqual"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-25T23:27:53Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2924836814",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 373603,
+      "login": "jberube",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jberube",
+      "avatar_url": "https://avatars.githubusercontent.com/u/373603?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1305",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1305/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1305/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1305/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1305",
+        "id": 91099509,
+        "number": 1305,
+        "title": "_.isEqual customizer callback is invoked without the third argument \"key\"",
+        "user": {
+          "login": "jberube",
+          "id": 373603,
+          "avatar_url": "https://avatars.githubusercontent.com/u/373603?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jberube",
+          "html_url": "https://github.com/jberube",
+          "followers_url": "https://api.github.com/users/jberube/followers",
+          "following_url": "https://api.github.com/users/jberube/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jberube/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jberube/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jberube/subscriptions",
+          "organizations_url": "https://api.github.com/users/jberube/orgs",
+          "repos_url": "https://api.github.com/users/jberube/repos",
+          "events_url": "https://api.github.com/users/jberube/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jberube/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-06-25T23:07:59Z",
+        "updated_at": "2015-06-25T23:07:59Z",
+        "closed_at": null,
+        "body": "I'm comparing two objects using this code, to ignore properties starting with $:\r\n\r\n```\r\nfunction areElementEquals (leftElement, rightElement) {\r\n\tfunction customComparer (left, right, key) {\r\n\t\tif (_(key).startsWith('$'))\r\n\t\t\treturn true;\r\n\r\n\t\tif (_.isObject(left))\r\n\t\t\treturn _.isEqual(left, right, customComparer);\r\n\r\n\t\treturn left === right;\r\n\t}\r\n\r\n\treturn _.isEqual(leftElement, rightElement, customComparer);\r\n}\r\n```\r\n\r\nThe customComparer never receive the third argument (key) as the documentation says it should: https://lodash.com/docs#isEqual"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-25T23:07:59Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2924713057",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1304",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1304/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1304/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1304/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1304",
+        "id": 91085854,
+        "number": 1304,
+        "title": "Only set difference is supported",
+        "user": {
+          "login": "jiaweihli",
+          "id": 351887,
+          "avatar_url": "https://avatars.githubusercontent.com/u/351887?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jiaweihli",
+          "html_url": "https://github.com/jiaweihli",
+          "followers_url": "https://api.github.com/users/jiaweihli/followers",
+          "following_url": "https://api.github.com/users/jiaweihli/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jiaweihli/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jiaweihli/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jiaweihli/subscriptions",
+          "organizations_url": "https://api.github.com/users/jiaweihli/orgs",
+          "repos_url": "https://api.github.com/users/jiaweihli/repos",
+          "events_url": "https://api.github.com/users/jiaweihli/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jiaweihli/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/invalid",
+            "name": "invalid",
+            "color": "e6e6e6"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2015-06-25T21:52:19Z",
+        "updated_at": "2015-06-25T22:15:40Z",
+        "closed_at": "2015-06-25T22:05:36Z",
+        "body": "`_.difference` does set difference, in that it removes all occurrences of the other elements provided.  This is oftentimes (and I would argue usually) not what you want, since you can achieve the current behavior by calling `_.uniq` on the first array, but you can't achieve 'exact difference' in a clean way as is.\r\n\r\ne.g. With set difference:\r\n```javascript\r\n_.difference([1, 1, 2, 3], [1])\r\nArray [ 2, 3 ]\r\n```\r\n\r\n'Exact difference' would yield `[1, 2, 3]` here.\r\n\r\n`_.without`, etc. suffer from the same issues."
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/115416733",
+        "html_url": "https://github.com/lodash/lodash/issues/1304#issuecomment-115416733",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1304",
+        "id": 115416733,
+        "user": {
+          "login": "jdalton",
+          "id": 4303,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4303?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jdalton",
+          "html_url": "https://github.com/jdalton",
+          "followers_url": "https://api.github.com/users/jdalton/followers",
+          "following_url": "https://api.github.com/users/jdalton/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jdalton/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jdalton/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jdalton/subscriptions",
+          "organizations_url": "https://api.github.com/users/jdalton/orgs",
+          "repos_url": "https://api.github.com/users/jdalton/repos",
+          "events_url": "https://api.github.com/users/jdalton/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jdalton/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-25T22:15:40Z",
+        "updated_at": "2015-06-25T22:15:40Z",
+        "body": "> Do you have any plans to support exact difference in the future (whether through an option on `_.difference`, or another method entirely)?\r\n\r\nNo plans at the moment.\r\n\r\n> Also, can you explain the rationale for basing the methods on set operations?\r\n\r\nIt's how it's historically been done in Underscore/Lodash.\r\n\r\n> it seems to be less expressive than the alternative.\r\n\r\nI haven't needed the alternative yet, but I'll keep an eye out on demand for this.\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-25T22:15:41Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2924705710",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 351887,
+      "login": "jiaweihli",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jiaweihli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/351887?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1304",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1304/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1304/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1304/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1304",
+        "id": 91085854,
+        "number": 1304,
+        "title": "Only set difference is supported",
+        "user": {
+          "login": "jiaweihli",
+          "id": 351887,
+          "avatar_url": "https://avatars.githubusercontent.com/u/351887?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jiaweihli",
+          "html_url": "https://github.com/jiaweihli",
+          "followers_url": "https://api.github.com/users/jiaweihli/followers",
+          "following_url": "https://api.github.com/users/jiaweihli/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jiaweihli/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jiaweihli/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jiaweihli/subscriptions",
+          "organizations_url": "https://api.github.com/users/jiaweihli/orgs",
+          "repos_url": "https://api.github.com/users/jiaweihli/repos",
+          "events_url": "https://api.github.com/users/jiaweihli/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jiaweihli/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/invalid",
+            "name": "invalid",
+            "color": "e6e6e6"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-06-25T21:52:19Z",
+        "updated_at": "2015-06-25T22:12:53Z",
+        "closed_at": "2015-06-25T22:05:36Z",
+        "body": "`_.difference` does set difference, in that it removes all occurrences of the other elements provided.  This is oftentimes (and I would argue usually) not what you want, since you can achieve the current behavior by calling `_.uniq` on the first array, but you can't achieve 'exact difference' in a clean way as is.\r\n\r\ne.g. With set difference:\r\n```javascript\r\n_.difference([1, 1, 2, 3], [1])\r\nArray [ 2, 3 ]\r\n```\r\n\r\n'Exact difference' would yield `[1, 2, 3]` here.\r\n\r\n`_.without`, etc. suffer from the same issues."
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/115416356",
+        "html_url": "https://github.com/lodash/lodash/issues/1304#issuecomment-115416356",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1304",
+        "id": 115416356,
+        "user": {
+          "login": "jiaweihli",
+          "id": 351887,
+          "avatar_url": "https://avatars.githubusercontent.com/u/351887?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jiaweihli",
+          "html_url": "https://github.com/jiaweihli",
+          "followers_url": "https://api.github.com/users/jiaweihli/followers",
+          "following_url": "https://api.github.com/users/jiaweihli/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jiaweihli/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jiaweihli/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jiaweihli/subscriptions",
+          "organizations_url": "https://api.github.com/users/jiaweihli/orgs",
+          "repos_url": "https://api.github.com/users/jiaweihli/repos",
+          "events_url": "https://api.github.com/users/jiaweihli/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jiaweihli/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-25T22:12:53Z",
+        "updated_at": "2015-06-25T22:12:53Z",
+        "body": "A use case set difference makes very awkward is finding all the duplicates in an array:\r\n\r\n```javascript\r\n_(array)\r\n  .countBy()\r\n  .filter(function(count) { return count > 1; })\r\n  .keys()\r\n  .value()\r\n```\r\n\r\nWith exact difference, this could be expressed in a more straightforward manner:\r\n\r\n```javascript\r\n_.difference(\r\n  array,\r\n  _.unique(array)\r\n)\r\n```\r\n\r\nDo you have any plans to support exact difference in the future (whether through an option on `_.difference`, or another method entirely)?\r\n\r\nAlso, can you explain the rationale for basing the methods on set operations?  Given:\r\n\r\n>  This is oftentimes (and I would argue usually) not what you want, since you can achieve the current behavior by calling _.uniq on the first array, but you can't achieve 'exact difference' in a clean way as is.\r\n\r\nit seems to be less expressive than the alternative."
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-25T22:12:53Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2924686858",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1304",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1304/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1304/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1304/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1304",
+        "id": 91085854,
+        "number": 1304,
+        "title": "Only set difference is supported",
+        "user": {
+          "login": "jiaweihli",
+          "id": 351887,
+          "avatar_url": "https://avatars.githubusercontent.com/u/351887?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jiaweihli",
+          "html_url": "https://github.com/jiaweihli",
+          "followers_url": "https://api.github.com/users/jiaweihli/followers",
+          "following_url": "https://api.github.com/users/jiaweihli/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jiaweihli/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jiaweihli/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jiaweihli/subscriptions",
+          "organizations_url": "https://api.github.com/users/jiaweihli/orgs",
+          "repos_url": "https://api.github.com/users/jiaweihli/repos",
+          "events_url": "https://api.github.com/users/jiaweihli/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jiaweihli/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/invalid",
+            "name": "invalid",
+            "color": "e6e6e6"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-25T21:52:19Z",
+        "updated_at": "2015-06-25T22:05:37Z",
+        "closed_at": "2015-06-25T22:05:36Z",
+        "body": "`_.difference` does set difference, in that it removes all occurrences of the other elements provided.  This is oftentimes (and I would argue usually) not what you want, since you can achieve the current behavior by calling `_.uniq` on the first array, but you can't achieve 'exact difference' in a clean way as is.\r\n\r\ne.g. With set difference:\r\n```javascript\r\n_.difference([1, 1, 2, 3], [1])\r\nArray [ 2, 3 ]\r\n```\r\n\r\n'Exact difference' would yield `[1, 2, 3]` here.\r\n\r\n`_.without`, etc. suffer from the same issues."
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-25T22:05:37Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2924686838",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1304",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1304/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1304/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1304/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1304",
+        "id": 91085854,
+        "number": 1304,
+        "title": "Only set difference is supported",
+        "user": {
+          "login": "jiaweihli",
+          "id": 351887,
+          "avatar_url": "https://avatars.githubusercontent.com/u/351887?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jiaweihli",
+          "html_url": "https://github.com/jiaweihli",
+          "followers_url": "https://api.github.com/users/jiaweihli/followers",
+          "following_url": "https://api.github.com/users/jiaweihli/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jiaweihli/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jiaweihli/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jiaweihli/subscriptions",
+          "organizations_url": "https://api.github.com/users/jiaweihli/orgs",
+          "repos_url": "https://api.github.com/users/jiaweihli/repos",
+          "events_url": "https://api.github.com/users/jiaweihli/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jiaweihli/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/invalid",
+            "name": "invalid",
+            "color": "e6e6e6"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-25T21:52:19Z",
+        "updated_at": "2015-06-25T22:05:37Z",
+        "closed_at": "2015-06-25T22:05:36Z",
+        "body": "`_.difference` does set difference, in that it removes all occurrences of the other elements provided.  This is oftentimes (and I would argue usually) not what you want, since you can achieve the current behavior by calling `_.uniq` on the first array, but you can't achieve 'exact difference' in a clean way as is.\r\n\r\ne.g. With set difference:\r\n```javascript\r\n_.difference([1, 1, 2, 3], [1])\r\nArray [ 2, 3 ]\r\n```\r\n\r\n'Exact difference' would yield `[1, 2, 3]` here.\r\n\r\n`_.without`, etc. suffer from the same issues."
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/115414893",
+        "html_url": "https://github.com/lodash/lodash/issues/1304#issuecomment-115414893",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1304",
+        "id": 115414893,
+        "user": {
+          "login": "jdalton",
+          "id": 4303,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4303?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jdalton",
+          "html_url": "https://github.com/jdalton",
+          "followers_url": "https://api.github.com/users/jdalton/followers",
+          "following_url": "https://api.github.com/users/jdalton/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jdalton/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jdalton/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jdalton/subscriptions",
+          "organizations_url": "https://api.github.com/users/jdalton/orgs",
+          "repos_url": "https://api.github.com/users/jdalton/repos",
+          "events_url": "https://api.github.com/users/jdalton/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jdalton/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-25T22:05:36Z",
+        "updated_at": "2015-06-25T22:05:36Z",
+        "body": "Yep, this is by design. Our methods (difference, intersection, union, xor) are based on set operations."
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-25T22:05:37Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2924647322",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 351887,
+      "login": "jiaweihli",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jiaweihli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/351887?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1304",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1304/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1304/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1304/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1304",
+        "id": 91085854,
+        "number": 1304,
+        "title": "Only set difference is supported",
+        "user": {
+          "login": "jiaweihli",
+          "id": 351887,
+          "avatar_url": "https://avatars.githubusercontent.com/u/351887?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jiaweihli",
+          "html_url": "https://github.com/jiaweihli",
+          "followers_url": "https://api.github.com/users/jiaweihli/followers",
+          "following_url": "https://api.github.com/users/jiaweihli/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jiaweihli/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jiaweihli/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jiaweihli/subscriptions",
+          "organizations_url": "https://api.github.com/users/jiaweihli/orgs",
+          "repos_url": "https://api.github.com/users/jiaweihli/repos",
+          "events_url": "https://api.github.com/users/jiaweihli/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jiaweihli/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-06-25T21:52:19Z",
+        "updated_at": "2015-06-25T21:52:19Z",
+        "closed_at": null,
+        "body": "`_.difference` does set difference, in that it removes all occurrences of the other elements provided.  This is oftentimes (and I would argue usually) not what you want, since you can achieve the current behavior by calling `_.uniq` on the first array, but you can't achieve 'exact difference' in a clean way as is.\r\n\r\ne.g. With set difference:\r\n```javascript\r\n_.difference([1, 1, 2, 3], [1])\r\nArray [ 2, 3 ]\r\n```\r\n\r\n'Exact difference' would yield `[1, 2, 3]` here.\r\n\r\n`_.without`, etc. suffer from the same issues."
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-25T21:52:20Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2924598192",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1303",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1303/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1303/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1303/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1303",
+        "id": 91075679,
+        "number": 1303,
+        "title": "_.indexOf() binary search question",
+        "user": {
+          "login": "kevinawoo",
+          "id": 3469532,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3469532?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/kevinawoo",
+          "html_url": "https://github.com/kevinawoo",
+          "followers_url": "https://api.github.com/users/kevinawoo/followers",
+          "following_url": "https://api.github.com/users/kevinawoo/following{/other_user}",
+          "gists_url": "https://api.github.com/users/kevinawoo/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/kevinawoo/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/kevinawoo/subscriptions",
+          "organizations_url": "https://api.github.com/users/kevinawoo/orgs",
+          "repos_url": "https://api.github.com/users/kevinawoo/repos",
+          "events_url": "https://api.github.com/users/kevinawoo/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/kevinawoo/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/bug",
+            "name": "bug",
+            "color": "fc2929"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-25T21:05:12Z",
+        "updated_at": "2015-06-25T21:35:40Z",
+        "closed_at": "2015-06-25T21:35:27Z",
+        "body": "I just noticed that passing an undefined for `_.indexOf` when binary search returned something different without binary search.\r\n\r\n```\r\n// this returns -1\r\n_.indexOf([1,2,3,4,5,6], undefined);\r\n\r\n// this returns 6\r\n_.indexOf([1,2,3,4,5,6], undefined, true);\r\n```\r\n\r\nwas this intended behavior?"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/115405295",
+        "html_url": "https://github.com/lodash/lodash/issues/1303#issuecomment-115405295",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1303",
+        "id": 115405295,
+        "user": {
+          "login": "jdalton",
+          "id": 4303,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4303?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jdalton",
+          "html_url": "https://github.com/jdalton",
+          "followers_url": "https://api.github.com/users/jdalton/followers",
+          "following_url": "https://api.github.com/users/jdalton/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jdalton/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jdalton/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jdalton/subscriptions",
+          "organizations_url": "https://api.github.com/users/jdalton/orgs",
+          "repos_url": "https://api.github.com/users/jdalton/repos",
+          "events_url": "https://api.github.com/users/jdalton/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jdalton/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-25T21:35:40Z",
+        "updated_at": "2015-06-25T21:35:40Z",
+        "body": "Thanks, patched!"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-25T21:35:40Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2924597531",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "push_id": 707316071,
+      "size": 7,
+      "distinct_size": 7,
+      "ref": "refs/heads/master",
+      "head": "60cba5166489b7798b88918cb7fd2db2201223ff",
+      "before": "37affc1c23a0063738e812e2ac7c2931b35e3c70",
+      "commits": [
+        {
+          "sha": "6921fb66d54207d6a6b8327229c1f77859e0b84e",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Add `_.noConflict` test.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/6921fb66d54207d6a6b8327229c1f77859e0b84e"
+        },
+        {
+          "sha": "9f3d284c68bfc2840534383779de12e7eaec8b41",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Remove `isExposed` check from test.js.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/9f3d284c68bfc2840534383779de12e7eaec8b41"
+        },
+        {
+          "sha": "1881f5cb39810a7e2eb9ed655fbb187c38d54ff0",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Ensure `_.noConflict` operates on `root` and not `context`.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/1881f5cb39810a7e2eb9ed655fbb187c38d54ff0"
+        },
+        {
+          "sha": "67359c22d5d008226e31d780dfb15fea32b292ad",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Remove duplicate `_.debounce` and `_.throttle` test.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/67359c22d5d008226e31d780dfb15fea32b292ad"
+        },
+        {
+          "sha": "6b7c1ad6cf1b1f48dbc119f87808ea9879a0bb64",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Ensure `_.indexOf` and `_.lastIndexOf` return `-1` when performing a binary search for `undefined` and it's not found. [closes #1303]",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/6b7c1ad6cf1b1f48dbc119f87808ea9879a0bb64"
+        },
+        {
+          "sha": "368cbacf963aa2ba014dfbfbe2f1b9726fd7fbac",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Rebuild lodash and docs.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/368cbacf963aa2ba014dfbfbe2f1b9726fd7fbac"
+        },
+        {
+          "sha": "60cba5166489b7798b88918cb7fd2db2201223ff",
+          "author": {
+            "email": "john.david.dalton@gmail.com",
+            "name": "jdalton"
+          },
+          "message": "Bump to v3.10.0.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/lodash/lodash/commits/60cba5166489b7798b88918cb7fd2db2201223ff"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-06-25T21:35:28Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2924597522",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1303",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1303/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1303/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1303/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1303",
+        "id": 91075679,
+        "number": 1303,
+        "title": "_.indexOf() binary search question",
+        "user": {
+          "login": "kevinawoo",
+          "id": 3469532,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3469532?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/kevinawoo",
+          "html_url": "https://github.com/kevinawoo",
+          "followers_url": "https://api.github.com/users/kevinawoo/followers",
+          "following_url": "https://api.github.com/users/kevinawoo/following{/other_user}",
+          "gists_url": "https://api.github.com/users/kevinawoo/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/kevinawoo/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/kevinawoo/subscriptions",
+          "organizations_url": "https://api.github.com/users/kevinawoo/orgs",
+          "repos_url": "https://api.github.com/users/kevinawoo/repos",
+          "events_url": "https://api.github.com/users/kevinawoo/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/kevinawoo/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/bug",
+            "name": "bug",
+            "color": "fc2929"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-06-25T21:05:12Z",
+        "updated_at": "2015-06-25T21:35:27Z",
+        "closed_at": "2015-06-25T21:35:27Z",
+        "body": "I just noticed that passing an undefined for `_.indexOf` when binary search returned something different without binary search.\r\n\r\n```\r\n// this returns -1\r\n_.indexOf([1,2,3,4,5,6], undefined);\r\n\r\n// this returns 6\r\n_.indexOf([1,2,3,4,5,6], undefined, true);\r\n```\r\n\r\nwas this intended behavior?"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-25T21:35:27Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2924513228",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1302",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1302/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1302/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1302/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1302",
+        "id": 91075309,
+        "number": 1302,
+        "title": "Feature request: AtLeast, AtMost",
+        "user": {
+          "login": "falafflepotatoe",
+          "id": 10060419,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10060419?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/falafflepotatoe",
+          "html_url": "https://github.com/falafflepotatoe",
+          "followers_url": "https://api.github.com/users/falafflepotatoe/followers",
+          "following_url": "https://api.github.com/users/falafflepotatoe/following{/other_user}",
+          "gists_url": "https://api.github.com/users/falafflepotatoe/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/falafflepotatoe/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/falafflepotatoe/subscriptions",
+          "organizations_url": "https://api.github.com/users/falafflepotatoe/orgs",
+          "repos_url": "https://api.github.com/users/falafflepotatoe/repos",
+          "events_url": "https://api.github.com/users/falafflepotatoe/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/falafflepotatoe/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb"
+          },
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/wontfix",
+            "name": "wontfix",
+            "color": "ffffff"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-25T21:02:43Z",
+        "updated_at": "2015-06-25T21:08:02Z",
+        "closed_at": "2015-06-25T21:08:02Z",
+        "body": "heres an easy one, i always hate typing this one out:\r\n\r\n - atLeast (cnt, value, array) returns bool\r\n - atMost (cnt, value, array)  returns bool\r\n\r\nexample:\r\n\r\n    animals = [ 'cat','dog','bear','cat' ]\r\n    if (_atLeast(2, 'cat', animals))\r\n      feedcats()\r\n\r\n\r\nreplaces\r\n\r\n    animals = ['cat','dog','bear','cat']\r\n    cnt = 0;\r\n    for (animal of animals){\r\n      if (animal == 'cat'){\r\n        cnt += 1\r\n      }\r\n    }\r\n    if (cnt > 2){\r\n         feedcats()\r\n    }\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-25T21:08:02Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  },
+  {
+    "id": "2924513222",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 4303,
+      "login": "jdalton",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdalton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4303?"
+    },
+    "repo": {
+      "id": 3955647,
+      "name": "lodash/lodash",
+      "url": "https://api.github.com/repos/lodash/lodash"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/1302",
+        "labels_url": "https://api.github.com/repos/lodash/lodash/issues/1302/labels{/name}",
+        "comments_url": "https://api.github.com/repos/lodash/lodash/issues/1302/comments",
+        "events_url": "https://api.github.com/repos/lodash/lodash/issues/1302/events",
+        "html_url": "https://github.com/lodash/lodash/issues/1302",
+        "id": 91075309,
+        "number": 1302,
+        "title": "Feature request: AtLeast, AtMost",
+        "user": {
+          "login": "falafflepotatoe",
+          "id": 10060419,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10060419?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/falafflepotatoe",
+          "html_url": "https://github.com/falafflepotatoe",
+          "followers_url": "https://api.github.com/users/falafflepotatoe/followers",
+          "following_url": "https://api.github.com/users/falafflepotatoe/following{/other_user}",
+          "gists_url": "https://api.github.com/users/falafflepotatoe/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/falafflepotatoe/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/falafflepotatoe/subscriptions",
+          "organizations_url": "https://api.github.com/users/falafflepotatoe/orgs",
+          "repos_url": "https://api.github.com/users/falafflepotatoe/repos",
+          "events_url": "https://api.github.com/users/falafflepotatoe/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/falafflepotatoe/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb"
+          },
+          {
+            "url": "https://api.github.com/repos/lodash/lodash/labels/wontfix",
+            "name": "wontfix",
+            "color": "ffffff"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-06-25T21:02:43Z",
+        "updated_at": "2015-06-25T21:08:02Z",
+        "closed_at": "2015-06-25T21:08:02Z",
+        "body": "heres an easy one, i always hate typing this one out:\r\n\r\n - atLeast (cnt, value, array) returns bool\r\n - atMost (cnt, value, array)  returns bool\r\n\r\nexample:\r\n\r\n    animals = [ 'cat','dog','bear','cat' ]\r\n    if (_atLeast(2, 'cat', animals))\r\n      feedcats()\r\n\r\n\r\nreplaces\r\n\r\n    animals = ['cat','dog','bear','cat']\r\n    cnt = 0;\r\n    for (animal of animals){\r\n      if (animal == 'cat'){\r\n        cnt += 1\r\n      }\r\n    }\r\n    if (cnt > 2){\r\n         feedcats()\r\n    }\r\n"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lodash/lodash/issues/comments/115398788",
+        "html_url": "https://github.com/lodash/lodash/issues/1302#issuecomment-115398788",
+        "issue_url": "https://api.github.com/repos/lodash/lodash/issues/1302",
+        "id": 115398788,
+        "user": {
+          "login": "jdalton",
+          "id": 4303,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4303?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jdalton",
+          "html_url": "https://github.com/jdalton",
+          "followers_url": "https://api.github.com/users/jdalton/followers",
+          "following_url": "https://api.github.com/users/jdalton/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jdalton/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jdalton/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jdalton/subscriptions",
+          "organizations_url": "https://api.github.com/users/jdalton/orgs",
+          "repos_url": "https://api.github.com/users/jdalton/repos",
+          "events_url": "https://api.github.com/users/jdalton/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jdalton/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-06-25T21:08:02Z",
+        "updated_at": "2015-06-25T21:08:02Z",
+        "body": "I think this is perfect for a [mixin](https://lodash.com/docs#mixin).\r\n\r\nRelated to https://github.com/jashkenas/underscore/issues/2223."
+      }
+    },
+    "public": true,
+    "created_at": "2015-06-25T21:08:02Z",
+    "org": {
+      "id": 2565403,
+      "login": "lodash",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/lodash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2565403?"
+    }
+  }
+]
