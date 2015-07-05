@@ -1,13 +1,16 @@
 function getData() {
+  const dataLocation = 'data/';
+
   function json(res) {
     return res.json();
   }
+  function toDataLocation(n) {
+    return dataLocation + n + '.json';
+  }
   'use strict';
   var promises = [];
-  const dataLocation = 'data/';
   for (var i = 1; i <= 10; i++) {
-    var url = dataLocation + i + '.json';
-    var promise = fetch(url).then(json);
+    var promise = fetch(toDataLocation(i)).then(json);
     promises.push(promise);
   }
   return Promise.all(promises)
