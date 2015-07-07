@@ -1,19 +1,16 @@
 function getData() {
   var pages = window.data;
-  var events = [];
-  pages.forEach(function(page) {
-    page.forEach(function(event) {
-      events.push(event);
-    })
-  });
-  var eventTypeCount = {};
-  events.forEach(function(event) {
-    eventTypeCount[event.type] = (eventTypeCount[event.type] || 0) + 1;
-  });
+  var events = pages.reduce(function(soFar, page) {
+    return soFar.concat(page);
+  }, []);
+
+  var eventTypeCount = events.reduce(function(soFar, event) {
+    soFar[event.type] = (soFar[event.type] || 0) + 1;
+    return soFar;
+  }, {});
   var eventTypes = Object.keys(eventTypeCount);
-  var eventValues = [];
-  eventTypes.forEach(function(eventType) {
-    eventValues.push(eventTypeCount[eventType]);
+  var eventValues = eventTypes.map(function(type) {
+    return eventTypeCount[type];
   });
   return {types: eventTypes, values: eventValues}
 }
