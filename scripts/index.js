@@ -1,6 +1,6 @@
 function getData() {
-  var pages = window.data;
-  var events = _.flatten(pages);
-  var eventTypeCount = _.countBy(events, 'type');
-  return {types: _.keys(eventTypeCount), values: _.values(eventTypeCount)};
+  function toTypesAndValues(obj) {
+    return {types: _.keys(obj), values: _.values(obj)};
+  }
+  return _(window.data).flatten().countBy('type').thru(toTypesAndValues).value();
 }
