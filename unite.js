@@ -11,7 +11,7 @@ function promiseContents(path) {
   });
 }
 
-var contents = Array.apply(null, Array(10));
+var contents = Array.apply(null, { length: 10 } );
 console.log(contents);
 contents = contents
   .map(function (v, i) { return __dirname + '/data/' + (i + 1) + '.json'});
